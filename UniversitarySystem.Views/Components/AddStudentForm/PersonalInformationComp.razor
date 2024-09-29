@@ -1,0 +1,58 @@
+﻿@using UniversitarySystem.Views.ViewModels.AddStudent
+<EditForm Model="@PersonalInformation">
+    <div class="container-fluid">
+        <nav class="shadow p-3 mt-3 bg-white rounded-3">
+            <div class="border-bottom h3 border-secondary col-lg-11 mx-auto d-flex">
+                <span>Datos Personales</span>
+            </div>
+            <div class="row mt-4">
+                <div class="form-floating col-lg-5 mx-auto mb-2">
+                    <InputText @bind-Value="PersonalInformation.FirstName" class="form-control" id="FirstName" placeholder="Nombre" />
+                    <label class="form-label ms-2" for="FirstName">Nombre</label>
+                </div>
+
+                <div class="form-floating col-lg-5 mx-auto mb-2">
+                    <InputText @bind-Value="PersonalInformation.LastName" class=" form-control" id="LastName" placeholder="Apellido" />
+                    <label class="form-label ms-2" for="LastName">Apellido</label>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="form-floating col-lg-5 mx-auto mb-2">
+                    <InputText @bind-Value="PersonalInformation.DNI" class="form-control" id="DNI" placeholder="DNI" />
+                    <label class="form-label ms-2" for="DNI">DNI</label>
+                </div>
+
+                <div class="form-floating col-lg-5 mx-auto mb-2">
+                    <InputText @bind-Value="PersonalInformation.CUIL" class="form-control" id="CUIL" placeholder="CUIL" />
+                    <label class="form-label ms-2" for="CUIL">CUIL</label>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="form-floating col-lg-5 mx-auto mb-2">
+                    <InputText @bind-Value="PersonalInformation.NumberPhone" class="form-control" id="PhoneNumber" placeholder="Número de Celular" />
+                    <label class="form-label ms-2" for="PhoneNumber">Número de Celular</label>
+                    <div class="form-floating mt-4">
+                        <InputDate @bind-Value="PersonalInformation.DateOfBirth" class="form-control mt-3" id="DateOfBirth" placeholder="Fecha de nacimiento" />
+                        <label class="form-label" for="DateOfBirth">Fecha Nacimiento</label>
+                    </div>
+                </div>
+                <div class="form-floating col-lg-5 mx-auto mb-2">
+                    <InputText @bind-Value="PersonalInformation.Email" class="form-control" id="Email" placeholder="Email" />
+                    <label class="form-label ms-2" for="Email">Email</label>
+                    <div class="form-floating mt-4">
+                        <InputSelect @bind-Value="PersonalInformation.IdCollegeCareer" class="form-select mt-3" type="date" id="DateOfBirth" placeholder="Fecha de nacimiento">
+
+                        </InputSelect>
+                        <label class="form-label " for="DateOfBirth">Carrera a la que se inscribe:</label>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</EditForm>
+
+@code {
+
+    [Parameter]
+    public PersonalInformationViewModel PersonalInformation { get; set; }
+}

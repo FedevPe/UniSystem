@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\UniversitarySystem.UI.WinForms.props" />
+</Project>

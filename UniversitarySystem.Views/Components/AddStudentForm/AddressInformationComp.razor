@@ -1,0 +1,39 @@
+﻿@using UniversitarySystem.Views.ViewModels.AddStudent
+
+<EditForm Model="@AddressInformation">
+    <nav class="shadow p-3 rounded-3 bg-white mt-3 ">
+        <div class="border-bottom h3 border-secondary col-lg-11 mx-auto d-flex">
+            <span>Dirección</span>
+        </div>
+        <div class="row mt-4">
+            <div class="form-floating col-lg-5 mx-auto mb-2">
+                <InputText @bind-Value="AddressInformation.Address" class="form-control" id="Address" placeholder="Dirección" />
+                <label class="form-label ms-2" for="Address">Dirección</label>
+            </div>
+            <div class="form-floating col-lg-5 mx-auto mb-4">
+                <InputText @bind-Value="AddressInformation.ZipCode" class="form-control" id="ZipCode" placeholder="Código postal" />
+                <label class="form-label ms-2" for="ZipCode">Código postal</label>
+            </div>
+        </div>
+
+        @*
+        Configurar esta parte para obtener las provincias desde la base de datos y
+        a partir de la provincia elegida obtener las localidades que pertenecen a ella
+        *@
+        <div class="row mt-4">
+            <div class="form-floating col-lg-5 mx-auto mb-2">
+                <select class="form-select" name="Provincia" id="Province" placeholder="Provincia"></select>
+                <label class="form-label ms-2" for="Province">Provincia</label>
+            </div>
+            <div class="form-floating col-lg-5 mx-auto mb-2">
+                <select class="form-select" name="Provincia" id="Locality" placeholder="Provincia"></select>
+                <label class="form-label ms-2" for="Province">Localidad</label>
+            </div>
+        </div>
+    </nav>
+</EditForm>
+
+@code {
+    [Parameter]
+    public AddressInformationViewModel AddressInformation { get; set; }
+}

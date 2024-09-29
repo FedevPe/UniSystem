@@ -1,0 +1,16 @@
+﻿<section class="container mt-4">
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center border rounded bg-blue-800 shadow">
+        <h1 class="p-2 text-white"><i class="@ClassIconBar ms-2 me-3"></i>@TitleBarSup</h1>
+        <button class="btn btn-light d-md-none me-2" type="button" data-bs-toggle="collapse" data-bs-target=".sidebar">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </div>
+</section>
+
+@code{
+    [Parameter]
+    public string ClassIconBar { get; set; }
+
+    [Parameter]
+    public string TitleBarSup { get; set; }
+}

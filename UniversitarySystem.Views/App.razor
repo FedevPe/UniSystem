@@ -1,0 +1,33 @@
+﻿<Router AppAssembly="@typeof(App).Assembly">    
+    <Found Context="routeData">
+        <ErrorBoundary>
+            <ChildContent>
+                <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
+            </ChildContent>
+            <ErrorContent>
+                <p>Ocurrió un error inesperado</p>
+            </ErrorContent>
+        </ErrorBoundary>
+    </Found>
+    <NotFound>
+        <PageTitle>Not found</PageTitle>
+        <LayoutView Layout="@typeof(MainLayout)">
+            <p role="alert">Sorry, there's nothing at this address.</p>
+        </LayoutView>
+    </NotFound>
+</Router>
+
+@* //Route se encarga de buscar las rutas que hay en la applicacion y redireccionar *@
+@* typeof(App).Assembly retorna el nombre del ensamblado donde se encuentre el componente App.razor*@
+@* Si quiero agregar nuevos ensamblados uso AdditionalAssemblies = new []{ typeOf(nombre ensamblado).Assembly} *@
+@*los componentes que quiero que se rendericen deben tener el parametro @page "/"ruta"" para poder acceder a estos*@
+
+@code{
+    protected override void OnInitialized()
+    {
+        AppDomain.CurrentDomain.UnhandledException += (sender, error) =>
+        {
+            Console.WriteLine($"Unhandled exception: {error.ExceptionObject}");
+        };
+    }
+}

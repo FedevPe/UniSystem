@@ -1,0 +1,43 @@
+﻿@page "/addStudentForm"
+@inject IStudentController StudentController
+
+<div class="container-fluid">
+    <SupTitleBarComponent ClassIconBar="@barIconClass" TitleBarSup="@supTitleBar"/>
+</div>
+
+<EditForm Model="@StudentModel">
+    <PersonalInformationComp PersonalInformation="@StudentModel.PersonalInformation"/>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col mt-3">
+                <AddressInformationComp AddressInformation="@StudentModel.AddressInformation" />
+            </div>
+            <div class="col mt-3">
+                <TitleInformationComp TitleInformation="@StudentModel.TitleInformation" />
+            </div>
+        </div>
+    </div>
+</EditForm>
+
+<div class="container-fluid">
+    <PsychophysicalInformationComp/>
+</div>
+
+
+<div class="container-fluid">
+    <div class="row ">
+        <div class="col">
+            <nav class="mt-3 d-flex justify-content-end mb-2">
+                <button class="btn btn-primary btn-lg me-2" type="submit" form="editForm">Guardar</button>
+                <button class="btn btn-danger btn-lg" type="button" id="btnCancel">Cancelar</button>
+            </nav>
+        </div>
+    </div>
+</div>
+
+@code {
+    private string supTitleBar = "Nuevo estudiante";
+    private string barIconClass = "fa-solid fa-user-plus";
+
+    private AddStudentFormViewModel StudentModel { get; set; }
+}

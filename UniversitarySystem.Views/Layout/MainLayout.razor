@@ -1,0 +1,32 @@
+﻿@using Microsoft.AspNetCore.Components.Routing
+@using Microsoft.AspNetCore.Components.Sections
+@inherits LayoutComponentBase
+
+<div class=" d-flex flex-colum vh-100">
+    <div class="container-fluid flex-grow-1">
+        <div class="row">
+            <div class="col-xxl-2 col-lg-3 col-md-3 d-md-block bg-blue-800 collapse sidebar pb-2">
+                <NavMenu />
+            </div>
+            <main class="bg-blue-50 col-lg-9 col-md-9 col-xxl-10 overflow-auto">
+                <ErrorBoundary @ref=ErrorBoundaryRef>
+                    <ChildContent>
+                        <div class="content px-4">
+                            @Body
+                        </div>
+                    </ChildContent>
+                    <ErrorContent>
+                        <ExceptionDisplayComponent Exception="context" >
+                        @* <button class="btn bnt-danger" @onclick=Recover>
+                            Reset
+                        </button> *@
+                        </ExceptionDisplayComponent>
+                    </ErrorContent>
+                </ErrorBoundary>
+            </main>
+        </div>        
+    </div>    
+</div>
+@((RenderFragment)(builder => base.BuildRenderTree(builder)))
+
+

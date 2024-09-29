@@ -1,0 +1,38 @@
+{
+  "Version": 1,
+  "Hash": "gUUSNjhTrwx/HSvejZ4DLD0dl+/9UI+AsYzcCFu6oMY=",
+  "Source": "UniversitarySystem.UI.WinForms",
+  "BasePath": "/",
+  "Mode": "Root",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\UniversitarySystem_v2\\UniversitarySystem.Views\\UniversitarySystem.Views.csproj",
+      "Version": 2,
+      "Source": "UniversitarySystem.Views",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [
+    {
+      "Name": "UniversitarySystem.UI.WinForms\\wwwroot",
+      "Source": "UniversitarySystem.UI.WinForms",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\UniversitarySystem_v2\\UniversitarySystem.UI.WinForms\\wwwroot\\",
+      "BasePath": "/",
+      "Pattern": "**"
+    },
+    {
+      "Name": "UniversitarySystem.Views\\wwwroot",
+      "Source": "UniversitarySystem.Views",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\UniversitarySystem_v2\\UniversitarySystem.Views\\wwwroot\\",
+      "BasePath": "_content/UniversitarySystem.Views",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
