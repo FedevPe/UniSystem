@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JJCcLcbE7ZplDZ9xOPneeuv+EnxULjlhndia0zkVaGk=",
+  "Hash": "qmdWeRE2Zzfh6jtSCcAaGnuQ0V7j9CJQ3OOpmrxFBzw=",
   "Source": "UniversitarySystem.Views",
   "BasePath": "_content/UniversitarySystem.Views",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "UniversitarySystem.Views\\wwwroot",
       "Source": "UniversitarySystem.Views",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\UniversitarySystem_v2\\UniversitarySystem.Views\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.Views\\wwwroot\\",
       "BasePath": "_content/UniversitarySystem.Views",
       "Pattern": "**"
     }

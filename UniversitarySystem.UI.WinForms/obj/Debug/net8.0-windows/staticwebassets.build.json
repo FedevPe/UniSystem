@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "gUUSNjhTrwx/HSvejZ4DLD0dl+/9UI+AsYzcCFu6oMY=",
+  "Hash": "JZ51UVlYCJ1WLdXJHwRhMzROxSEEOOo0EuiCknamRKE=",
   "Source": "UniversitarySystem.UI.WinForms",
   "BasePath": "/",
   "Mode": "Root",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\UniversitarySystem_v2\\UniversitarySystem.Views\\UniversitarySystem.Views.csproj",
+      "Identity": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.Views\\UniversitarySystem.Views.csproj",
       "Version": 2,
       "Source": "UniversitarySystem.Views",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -22,14 +22,14 @@
     {
       "Name": "UniversitarySystem.UI.WinForms\\wwwroot",
       "Source": "UniversitarySystem.UI.WinForms",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\UniversitarySystem_v2\\UniversitarySystem.UI.WinForms\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.UI.WinForms\\wwwroot\\",
       "BasePath": "/",
       "Pattern": "**"
     },
     {
       "Name": "UniversitarySystem.Views\\wwwroot",
       "Source": "UniversitarySystem.Views",
-      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\UniversitarySystem_v2\\UniversitarySystem.Views\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.Views\\wwwroot\\",
       "BasePath": "_content/UniversitarySystem.Views",
       "Pattern": "**"
     }

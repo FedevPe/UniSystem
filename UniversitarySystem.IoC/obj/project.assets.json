@@ -1359,7 +1359,10 @@
         },
         "runtime": {
           "bin/placeholder/UniversitarySystemControllers.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.app"
+        ]
       },
       "UniversitarySystemGateways/1.0.0": {
         "type": "project",

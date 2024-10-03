@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "Hash": "5nyb00XpQhYt2f0y0LyMccSj7GmIIB4nUDtTnxCsKkk=",
+  "Source": "UniversitarySystem.WebAPI",
+  "BasePath": "_content/UniversitarySystem.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.Views\\UniversitarySystem.Views.csproj",
+      "Version": 2,
+      "Source": "UniversitarySystem.Views",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [
+    {
+      "Name": "UniversitarySystem.Views\\wwwroot",
+      "Source": "UniversitarySystem.Views",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.Views\\wwwroot\\",
+      "BasePath": "_content/UniversitarySystem.Views",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
