@@ -4168,11 +4168,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\UniversitarySystem_v2\\UniversitarySystem.EFCore\\UniversitarySystem.EFCore.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.EFCore\\UniversitarySystem.EFCore.csproj",
       "projectName": "UniversitarySystem.EFCore",
-      "projectPath": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\UniversitarySystem_v2\\UniversitarySystem.EFCore\\UniversitarySystem.EFCore.csproj",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.EFCore\\UniversitarySystem.EFCore.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\UniversitarySystem_v2\\UniversitarySystem.EFCore\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.EFCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4194,14 +4194,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\UniversitarySystem_v2\\UniversitarySystem.Entities\\UniversitarySystem.Entities.csproj": {
-              "projectPath": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\UniversitarySystem_v2\\UniversitarySystem.Entities\\UniversitarySystem.Entities.csproj"
+            "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.Entities\\UniversitarySystem.Entities.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.Entities\\UniversitarySystem.Entities.csproj"
             },
-            "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\UniversitarySystem_v2\\UniversitarySystem.UsesCases\\UniversitarySystem.UsesCases.csproj": {
-              "projectPath": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\UniversitarySystem_v2\\UniversitarySystem.UsesCases\\UniversitarySystem.UsesCases.csproj"
+            "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.UsesCases\\UniversitarySystem.UsesCases.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.UsesCases\\UniversitarySystem.UsesCases.csproj"
             },
-            "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\UniversitarySystem_v2\\UniversitarySystemGateways\\UniversitarySystemGateways.csproj": {
-              "projectPath": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\UniversitarySystem_v2\\UniversitarySystemGateways\\UniversitarySystemGateways.csproj"
+            "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystemGateways\\UniversitarySystemGateways.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystemGateways\\UniversitarySystemGateways.csproj"
             }
           }
         }

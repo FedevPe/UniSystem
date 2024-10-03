@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UniversitarySystemGateways")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b67a6a8fdc265b379f7aaee961567ae7443d782")]
 [assembly: System.Reflection.AssemblyProductAttribute("UniversitarySystemGateways")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UniversitarySystemGateways")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

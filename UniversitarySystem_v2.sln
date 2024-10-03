@@ -43,6 +43,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InversionOfControl", "Inver
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UniversitarySystem.IoC", "UniversitarySystem.IoC\UniversitarySystem.IoC.csproj", "{654A11C2-6C95-4316-977A-826D3DBF9EC2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversitarySystem.WebAPI", "UniversitarySystem.WebAPI\UniversitarySystem.WebAPI.csproj", "{E840BDCE-91FB-4CE7-B989-24B5428F1C77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,6 +87,10 @@ Global
 		{654A11C2-6C95-4316-977A-826D3DBF9EC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{654A11C2-6C95-4316-977A-826D3DBF9EC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{654A11C2-6C95-4316-977A-826D3DBF9EC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E840BDCE-91FB-4CE7-B989-24B5428F1C77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E840BDCE-91FB-4CE7-B989-24B5428F1C77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E840BDCE-91FB-4CE7-B989-24B5428F1C77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E840BDCE-91FB-4CE7-B989-24B5428F1C77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -106,6 +112,7 @@ Global
 		{7B650802-7F29-4CB8-94F9-AEFF81AAC8D5} = {09C52C6C-9551-49B4-BB02-BD8D3BE95AE7}
 		{D86D15A9-2683-4A6B-95E6-5DF1F88CC35D} = {F343EEAD-D6C8-45BD-87C4-99D768B69385}
 		{654A11C2-6C95-4316-977A-826D3DBF9EC2} = {D86D15A9-2683-4A6B-95E6-5DF1F88CC35D}
+		{E840BDCE-91FB-4CE7-B989-24B5428F1C77} = {09C52C6C-9551-49B4-BB02-BD8D3BE95AE7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B1451CC9-EADF-43E8-A1A7-791087007BD2}

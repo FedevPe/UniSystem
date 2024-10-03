@@ -9,59 +9,59 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows,browser
 build_property.RootNamespace = UniversitarySystem.Views
 build_property.RootNamespace = UniversitarySystem.Views
-build_property.ProjectDir = C:\Users\Usuario\Desktop\Instituto\2°Año\Programacion II\UniversitarySystem_v2\UniversitarySystem.Views\
+build_property.ProjectDir = C:\Users\Usuario\Desktop\Instituto\2°Año\Programacion II\Repositorios\UniSystem\UniversitarySystem.Views\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Usuario\Desktop\Instituto\2°Año\Programacion II\UniversitarySystem_v2\UniversitarySystem.Views
+build_property.MSBuildProjectDirectory = C:\Users\Usuario\Desktop\Instituto\2°Año\Programacion II\Repositorios\UniSystem\UniversitarySystem.Views
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Usuario/Desktop/Instituto/2°Año/Programacion II/UniversitarySystem_v2/UniversitarySystem.Views/App.razor]
+[C:/Users/Usuario/Desktop/Instituto/2°Año/Programacion II/Repositorios/UniSystem/UniversitarySystem.Views/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/Instituto/2°Año/Programacion II/UniversitarySystem_v2/UniversitarySystem.Views/Components/AddStudentForm/AddressInformationComp.razor]
+[C:/Users/Usuario/Desktop/Instituto/2°Año/Programacion II/Repositorios/UniSystem/UniversitarySystem.Views/Components/AddStudentForm/AddressInformationComp.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBZGRTdHVkZW50Rm9ybVxBZGRyZXNzSW5mb3JtYXRpb25Db21wLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/Instituto/2°Año/Programacion II/UniversitarySystem_v2/UniversitarySystem.Views/Components/AddStudentForm/PersonalInformationComp.razor]
+[C:/Users/Usuario/Desktop/Instituto/2°Año/Programacion II/Repositorios/UniSystem/UniversitarySystem.Views/Components/AddStudentForm/PersonalInformationComp.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBZGRTdHVkZW50Rm9ybVxQZXJzb25hbEluZm9ybWF0aW9uQ29tcC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/Instituto/2°Año/Programacion II/UniversitarySystem_v2/UniversitarySystem.Views/Components/AddStudentForm/PsychophysicalInformationComp.razor]
+[C:/Users/Usuario/Desktop/Instituto/2°Año/Programacion II/Repositorios/UniSystem/UniversitarySystem.Views/Components/AddStudentForm/PsychophysicalInformationComp.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBZGRTdHVkZW50Rm9ybVxQc3ljaG9waHlzaWNhbEluZm9ybWF0aW9uQ29tcC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/Instituto/2°Año/Programacion II/UniversitarySystem_v2/UniversitarySystem.Views/Components/AddStudentForm/TitleInformationComp.razor]
+[C:/Users/Usuario/Desktop/Instituto/2°Año/Programacion II/Repositorios/UniSystem/UniversitarySystem.Views/Components/AddStudentForm/TitleInformationComp.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBZGRTdHVkZW50Rm9ybVxUaXRsZUluZm9ybWF0aW9uQ29tcC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/Instituto/2°Año/Programacion II/UniversitarySystem_v2/UniversitarySystem.Views/Components/Common/SupTitleBarComponent.razor]
+[C:/Users/Usuario/Desktop/Instituto/2°Año/Programacion II/Repositorios/UniSystem/UniversitarySystem.Views/Components/Common/SupTitleBarComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb21tb25cU3VwVGl0bGVCYXJDb21wb25lbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/Instituto/2°Año/Programacion II/UniversitarySystem_v2/UniversitarySystem.Views/Components/Error/ExceptionDisplayComponent.razor]
+[C:/Users/Usuario/Desktop/Instituto/2°Año/Programacion II/Repositorios/UniSystem/UniversitarySystem.Views/Components/Error/ExceptionDisplayComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFcnJvclxFeGNlcHRpb25EaXNwbGF5Q29tcG9uZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/Instituto/2°Año/Programacion II/UniversitarySystem_v2/UniversitarySystem.Views/Layout/MainLayout.razor]
+[C:/Users/Usuario/Desktop/Instituto/2°Año/Programacion II/Repositorios/UniSystem/UniversitarySystem.Views/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/Instituto/2°Año/Programacion II/UniversitarySystem_v2/UniversitarySystem.Views/Layout/NavMenu.razor]
+[C:/Users/Usuario/Desktop/Instituto/2°Año/Programacion II/Repositorios/UniSystem/UniversitarySystem.Views/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/Instituto/2°Año/Programacion II/UniversitarySystem_v2/UniversitarySystem.Views/Pages/AddStudentForm.razor]
+[C:/Users/Usuario/Desktop/Instituto/2°Año/Programacion II/Repositorios/UniSystem/UniversitarySystem.Views/Pages/AddStudentForm.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkU3R1ZGVudEZvcm0ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/Instituto/2°Año/Programacion II/UniversitarySystem_v2/UniversitarySystem.Views/Pages/Home.razor]
+[C:/Users/Usuario/Desktop/Instituto/2°Año/Programacion II/Repositorios/UniSystem/UniversitarySystem.Views/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/Instituto/2°Año/Programacion II/UniversitarySystem_v2/UniversitarySystem.Views/_Imports.razor]
+[C:/Users/Usuario/Desktop/Instituto/2°Año/Programacion II/Repositorios/UniSystem/UniversitarySystem.Views/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

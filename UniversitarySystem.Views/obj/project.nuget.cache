@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4ZPIyvVEc2c=",
+  "dgSpecHash": "2Ye7RlBx4z4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\UniversitarySystem_v2\\UniversitarySystem.Views\\UniversitarySystem.Views.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.Views\\UniversitarySystem.Views.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.8\\microsoft.aspnetcore.authorization.8.0.8.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.8\\microsoft.aspnetcore.components.8.0.8.nupkg.sha512",

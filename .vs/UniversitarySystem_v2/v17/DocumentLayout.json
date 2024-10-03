@@ -1,20 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\UniversitarySystem_v2\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{812240A5-0A89-434F-9352-6B9F72BD6B4A}|UniversitarySystem.UsesCases\\UniversitarySystem.UsesCases.csproj|c:\\users\\usuario\\desktop\\instituto\\2\u00B0a\u00F1o\\programacion ii\\universitarysystem_v2\\universitarysystem.usescases\\dependencycontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{812240A5-0A89-434F-9352-6B9F72BD6B4A}|UniversitarySystem.UsesCases\\UniversitarySystem.UsesCases.csproj|solutionrelative:universitarysystem.usescases\\dependencycontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{654A11C2-6C95-4316-977A-826D3DBF9EC2}|UniversitarySystem.IoC\\UniversitarySystem.IoC.csproj|c:\\users\\usuario\\desktop\\instituto\\2\u00B0a\u00F1o\\programacion ii\\universitarysystem_v2\\universitarysystem.ioc\\servicesdependencycontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{654A11C2-6C95-4316-977A-826D3DBF9EC2}|UniversitarySystem.IoC\\UniversitarySystem.IoC.csproj|solutionrelative:universitarysystem.ioc\\servicesdependencycontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B650802-7F29-4CB8-94F9-AEFF81AAC8D5}|UniversitarySystem.UI.WinForms\\UniversitarySystem.UI.WinForms.csproj|c:\\users\\usuario\\desktop\\instituto\\2\u00B0a\u00F1o\\programacion ii\\universitarysystem_v2\\universitarysystem.ui.winforms\\extensions\\servicescollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B650802-7F29-4CB8-94F9-AEFF81AAC8D5}|UniversitarySystem.UI.WinForms\\UniversitarySystem.UI.WinForms.csproj|solutionrelative:universitarysystem.ui.winforms\\extensions\\servicescollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 240,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,45 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ServicesCollectionExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\UniversitarySystem_v2\\UniversitarySystem.UI.WinForms\\Extensions\\ServicesCollectionExtensions.cs",
-              "RelativeDocumentMoniker": "UniversitarySystem.UI.WinForms\\Extensions\\ServicesCollectionExtensions.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\UniversitarySystem_v2\\UniversitarySystem.UI.WinForms\\Extensions\\ServicesCollectionExtensions.cs",
-              "RelativeToolTip": "UniversitarySystem.UI.WinForms\\Extensions\\ServicesCollectionExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T23:48:18.516Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ServicesDependencyContainer.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\UniversitarySystem_v2\\UniversitarySystem.IoC\\ServicesDependencyContainer.cs",
-              "RelativeDocumentMoniker": "UniversitarySystem.IoC\\ServicesDependencyContainer.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\UniversitarySystem_v2\\UniversitarySystem.IoC\\ServicesDependencyContainer.cs",
-              "RelativeToolTip": "UniversitarySystem.IoC\\ServicesDependencyContainer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T23:38:41.533Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DependencyContainer.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\UniversitarySystem_v2\\UniversitarySystem.UsesCases\\DependencyContainer.cs",
-              "RelativeDocumentMoniker": "UniversitarySystem.UsesCases\\DependencyContainer.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\UniversitarySystem_v2\\UniversitarySystem.UsesCases\\DependencyContainer.cs",
-              "RelativeToolTip": "UniversitarySystem.UsesCases\\DependencyContainer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T23:37:56.76Z",
-              "EditorCaption": ""
             }
           ]
         },

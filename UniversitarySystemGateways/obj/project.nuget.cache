@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QABtEHNp69E=",
+  "dgSpecHash": "aTLmMBb1vjY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\UniversitarySystem_v2\\UniversitarySystemGateways\\UniversitarySystemGateways.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystemGateways\\UniversitarySystemGateways.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.1\\microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512"
   ],

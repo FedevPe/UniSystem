@@ -4029,11 +4029,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\UniversitarySystem_v2\\UniversitarySystem.UI.WinForms\\UniversitarySystem.UI.WinForms.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.UI.WinForms\\UniversitarySystem.UI.WinForms.csproj",
       "projectName": "UniversitarySystem.UI.WinForms",
-      "projectPath": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\UniversitarySystem_v2\\UniversitarySystem.UI.WinForms\\UniversitarySystem.UI.WinForms.csproj",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.UI.WinForms\\UniversitarySystem.UI.WinForms.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\UniversitarySystem_v2\\UniversitarySystem.UI.WinForms\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.UI.WinForms\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4055,14 +4055,14 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\UniversitarySystem_v2\\UniversitarySystem.EFCore\\UniversitarySystem.EFCore.csproj": {
-              "projectPath": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\UniversitarySystem_v2\\UniversitarySystem.EFCore\\UniversitarySystem.EFCore.csproj"
+            "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.EFCore\\UniversitarySystem.EFCore.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.EFCore\\UniversitarySystem.EFCore.csproj"
             },
-            "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\UniversitarySystem_v2\\UniversitarySystem.IoC\\UniversitarySystem.IoC.csproj": {
-              "projectPath": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\UniversitarySystem_v2\\UniversitarySystem.IoC\\UniversitarySystem.IoC.csproj"
+            "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.IoC\\UniversitarySystem.IoC.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.IoC\\UniversitarySystem.IoC.csproj"
             },
-            "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\UniversitarySystem_v2\\UniversitarySystem.Views\\UniversitarySystem.Views.csproj": {
-              "projectPath": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\UniversitarySystem_v2\\UniversitarySystem.Views\\UniversitarySystem.Views.csproj"
+            "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.Views\\UniversitarySystem.Views.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.Views\\UniversitarySystem.Views.csproj"
             }
           }
         }
