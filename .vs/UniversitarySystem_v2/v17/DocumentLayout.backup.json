@@ -3,36 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E840BDCE-91FB-4CE7-B989-24B5428F1C77}|UniversitarySystem.WebAPI\\UniversitarySystem.WebAPI.csproj|c:\\users\\usuario\\desktop\\instituto\\2\u00B0a\u00F1o\\programacion ii\\repositorios\\unisystem\\universitarysystem.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E840BDCE-91FB-4CE7-B989-24B5428F1C77}|UniversitarySystem.WebAPI\\UniversitarySystem.WebAPI.csproj|solutionrelative:universitarysystem.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5410B57C-214A-4387-A0DA-F520CEEE0C53}|UniversitarySystemControllers\\UniversitarySystemControllers.csproj|c:\\users\\usuario\\desktop\\instituto\\2\u00B0a\u00F1o\\programacion ii\\repositorios\\unisystem\\universitarysystemcontrollers\\implementations\\typecareerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5410B57C-214A-4387-A0DA-F520CEEE0C53}|UniversitarySystemControllers\\UniversitarySystemControllers.csproj|solutionrelative:universitarysystemcontrollers\\implementations\\typecareerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E840BDCE-91FB-4CE7-B989-24B5428F1C77}|UniversitarySystem.WebAPI\\UniversitarySystem.WebAPI.csproj|c:\\users\\usuario\\desktop\\instituto\\2\u00B0a\u00F1o\\programacion ii\\repositorios\\unisystem\\universitarysystem.webapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E840BDCE-91FB-4CE7-B989-24B5428F1C77}|UniversitarySystem.WebAPI\\UniversitarySystem.WebAPI.csproj|solutionrelative:universitarysystem.webapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{812240A5-0A89-434F-9352-6B9F72BD6B4A}|UniversitarySystem.UsesCases\\UniversitarySystem.UsesCases.csproj|c:\\users\\usuario\\desktop\\instituto\\2\u00B0a\u00F1o\\programacion ii\\repositorios\\unisystem\\universitarysystem.usescases\\businessobject\\controllers\\itypecareerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{812240A5-0A89-434F-9352-6B9F72BD6B4A}|UniversitarySystem.UsesCases\\UniversitarySystem.UsesCases.csproj|solutionrelative:universitarysystem.usescases\\businessobject\\controllers\\itypecareerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E840BDCE-91FB-4CE7-B989-24B5428F1C77}|UniversitarySystem.WebAPI\\UniversitarySystem.WebAPI.csproj|c:\\users\\usuario\\desktop\\instituto\\2\u00B0a\u00F1o\\programacion ii\\repositorios\\unisystem\\universitarysystem.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E840BDCE-91FB-4CE7-B989-24B5428F1C77}|UniversitarySystem.WebAPI\\UniversitarySystem.WebAPI.csproj|solutionrelative:universitarysystem.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{812240A5-0A89-434F-9352-6B9F72BD6B4A}|UniversitarySystem.UsesCases\\UniversitarySystem.UsesCases.csproj|c:\\users\\usuario\\desktop\\instituto\\2\u00B0a\u00F1o\\programacion ii\\repositorios\\unisystem\\universitarysystem.usescases\\businessobject\\controllers\\ibloodtypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{812240A5-0A89-434F-9352-6B9F72BD6B4A}|UniversitarySystem.UsesCases\\UniversitarySystem.UsesCases.csproj|solutionrelative:universitarysystem.usescases\\businessobject\\controllers\\ibloodtypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E840BDCE-91FB-4CE7-B989-24B5428F1C77}|UniversitarySystem.WebAPI\\UniversitarySystem.WebAPI.csproj|c:\\users\\usuario\\desktop\\instituto\\2\u00B0a\u00F1o\\programacion ii\\repositorios\\unisystem\\universitarysystem.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E840BDCE-91FB-4CE7-B989-24B5428F1C77}|UniversitarySystem.WebAPI\\UniversitarySystem.WebAPI.csproj|solutionrelative:universitarysystem.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{812240A5-0A89-434F-9352-6B9F72BD6B4A}|UniversitarySystem.UsesCases\\UniversitarySystem.UsesCases.csproj|c:\\users\\usuario\\desktop\\instituto\\2\u00B0a\u00F1o\\programacion ii\\repositorios\\unisystem\\universitarysystem.usescases\\businessobject\\controllers\\icitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{812240A5-0A89-434F-9352-6B9F72BD6B4A}|UniversitarySystem.UsesCases\\UniversitarySystem.UsesCases.csproj|solutionrelative:universitarysystem.usescases\\businessobject\\controllers\\icitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B650802-7F29-4CB8-94F9-AEFF81AAC8D5}|UniversitarySystem.UI.WinForms\\UniversitarySystem.UI.WinForms.csproj|c:\\users\\usuario\\desktop\\instituto\\2\u00B0a\u00F1o\\programacion ii\\repositorios\\unisystem\\universitarysystem.ui.winforms\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7B650802-7F29-4CB8-94F9-AEFF81AAC8D5}|UniversitarySystem.UI.WinForms\\UniversitarySystem.UI.WinForms.csproj|solutionrelative:universitarysystem.ui.winforms\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{812240A5-0A89-434F-9352-6B9F72BD6B4A}|UniversitarySystem.UsesCases\\UniversitarySystem.UsesCases.csproj|c:\\users\\usuario\\desktop\\instituto\\2\u00B0a\u00F1o\\programacion ii\\repositorios\\unisystem\\universitarysystem.usescases\\interactors\\typecareersinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{812240A5-0A89-434F-9352-6B9F72BD6B4A}|UniversitarySystem.UsesCases\\UniversitarySystem.UsesCases.csproj|solutionrelative:universitarysystem.usescases\\interactors\\typecareersinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{812240A5-0A89-434F-9352-6B9F72BD6B4A}|UniversitarySystem.UsesCases\\UniversitarySystem.UsesCases.csproj|c:\\users\\usuario\\desktop\\instituto\\2\u00B0a\u00F1o\\programacion ii\\repositorios\\unisystem\\universitarysystem.usescases\\dependencycontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{812240A5-0A89-434F-9352-6B9F72BD6B4A}|UniversitarySystem.UsesCases\\UniversitarySystem.UsesCases.csproj|solutionrelative:universitarysystem.usescases\\dependencycontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5859B30D-ABCB-4B1B-86FF-7F326298CF55}|UniversitarySystemGateways\\UniversitarySystemGateways.csproj|c:\\users\\usuario\\desktop\\instituto\\2\u00B0a\u00F1o\\programacion ii\\repositorios\\unisystem\\universitarysystemgateways\\implementations\\typecareersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5859B30D-ABCB-4B1B-86FF-7F326298CF55}|UniversitarySystemGateways\\UniversitarySystemGateways.csproj|solutionrelative:universitarysystemgateways\\implementations\\typecareersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{654A11C2-6C95-4316-977A-826D3DBF9EC2}|UniversitarySystem.IoC\\UniversitarySystem.IoC.csproj|c:\\users\\usuario\\desktop\\instituto\\2\u00B0a\u00F1o\\programacion ii\\repositorios\\unisystem\\universitarysystem.ioc\\servicesdependencycontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{654A11C2-6C95-4316-977A-826D3DBF9EC2}|UniversitarySystem.IoC\\UniversitarySystem.IoC.csproj|solutionrelative:universitarysystem.ioc\\servicesdependencycontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C268002C-A447-4C68-A633-8577267410C6}|UniversitarySystemPresenters\\UniversitarySystemPresenters.csproj|c:\\users\\usuario\\desktop\\instituto\\2\u00B0a\u00F1o\\programacion ii\\repositorios\\unisystem\\universitarysystempresenters\\implementations\\typecareerspresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C268002C-A447-4C68-A633-8577267410C6}|UniversitarySystemPresenters\\UniversitarySystemPresenters.csproj|solutionrelative:universitarysystempresenters\\implementations\\typecareerspresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B650802-7F29-4CB8-94F9-AEFF81AAC8D5}|UniversitarySystem.UI.WinForms\\UniversitarySystem.UI.WinForms.csproj|c:\\users\\usuario\\desktop\\instituto\\2\u00B0a\u00F1o\\programacion ii\\repositorios\\unisystem\\universitarysystem.ui.winforms\\extensions\\servicescollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B650802-7F29-4CB8-94F9-AEFF81AAC8D5}|UniversitarySystem.UI.WinForms\\UniversitarySystem.UI.WinForms.csproj|solutionrelative:universitarysystem.ui.winforms\\extensions\\servicescollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{812240A5-0A89-434F-9352-6B9F72BD6B4A}|UniversitarySystem.UsesCases\\UniversitarySystem.UsesCases.csproj|c:\\users\\usuario\\desktop\\instituto\\2\u00B0a\u00F1o\\programacion ii\\repositorios\\unisystem\\universitarysystem.usescases\\businessobject\\repository\\itypecareersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{812240A5-0A89-434F-9352-6B9F72BD6B4A}|UniversitarySystem.UsesCases\\UniversitarySystem.UsesCases.csproj|solutionrelative:universitarysystem.usescases\\businessobject\\repository\\itypecareersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,105 +55,105 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.WebAPI\\Program.cs",
-              "RelativeDocumentMoniker": "UniversitarySystem.WebAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.WebAPI\\Program.cs",
-              "RelativeToolTip": "UniversitarySystem.WebAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
+              "Title": "TypeCareersController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystemControllers\\Implementations\\TypeCareersController.cs",
+              "RelativeDocumentMoniker": "UniversitarySystemControllers\\Implementations\\TypeCareersController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystemControllers\\Implementations\\TypeCareersController.cs",
+              "RelativeToolTip": "UniversitarySystemControllers\\Implementations\\TypeCareersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T12:28:42.716Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.WebAPI\\Startup.cs",
-              "RelativeDocumentMoniker": "UniversitarySystem.WebAPI\\Startup.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.WebAPI\\Startup.cs",
-              "RelativeToolTip": "UniversitarySystem.WebAPI\\Startup.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T12:12:54.651Z",
+              "WhenOpened": "2024-10-03T13:12:34.468Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.WebAPI\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "UniversitarySystem.WebAPI\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.WebAPI\\Properties\\launchSettings.json",
-              "RelativeToolTip": "UniversitarySystem.WebAPI\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-03T12:11:40.806Z",
+              "Title": "IBloodTypeController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.UsesCases\\BusinessObject\\Controllers\\IBloodTypeController.cs",
+              "RelativeDocumentMoniker": "UniversitarySystem.UsesCases\\BusinessObject\\Controllers\\IBloodTypeController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.UsesCases\\BusinessObject\\Controllers\\IBloodTypeController.cs",
+              "RelativeToolTip": "UniversitarySystem.UsesCases\\BusinessObject\\Controllers\\IBloodTypeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T13:11:57.132Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.WebAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "UniversitarySystem.WebAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.WebAPI\\appsettings.json",
-              "RelativeToolTip": "UniversitarySystem.WebAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-03T12:11:28.338Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.UI.WinForms\\appsettings.json",
-              "RelativeDocumentMoniker": "UniversitarySystem.UI.WinForms\\appsettings.json",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.UI.WinForms\\appsettings.json",
-              "RelativeToolTip": "UniversitarySystem.UI.WinForms\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-03T12:11:15.653Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ServicesCollectionExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.UI.WinForms\\Extensions\\ServicesCollectionExtensions.cs",
-              "RelativeDocumentMoniker": "UniversitarySystem.UI.WinForms\\Extensions\\ServicesCollectionExtensions.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.UI.WinForms\\Extensions\\ServicesCollectionExtensions.cs",
-              "RelativeToolTip": "UniversitarySystem.UI.WinForms\\Extensions\\ServicesCollectionExtensions.cs",
+              "Title": "ICityController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.UsesCases\\BusinessObject\\Controllers\\ICityController.cs",
+              "RelativeDocumentMoniker": "UniversitarySystem.UsesCases\\BusinessObject\\Controllers\\ICityController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.UsesCases\\BusinessObject\\Controllers\\ICityController.cs",
+              "RelativeToolTip": "UniversitarySystem.UsesCases\\BusinessObject\\Controllers\\ICityController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T23:48:18.516Z",
+              "WhenOpened": "2024-10-03T13:11:55.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ITypeCareersController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.UsesCases\\BusinessObject\\Controllers\\ITypeCareersController.cs",
+              "RelativeDocumentMoniker": "UniversitarySystem.UsesCases\\BusinessObject\\Controllers\\ITypeCareersController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.UsesCases\\BusinessObject\\Controllers\\ITypeCareersController.cs",
+              "RelativeToolTip": "UniversitarySystem.UsesCases\\BusinessObject\\Controllers\\ITypeCareersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T13:11:12.249Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ServicesDependencyContainer.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.IoC\\ServicesDependencyContainer.cs",
-              "RelativeDocumentMoniker": "UniversitarySystem.IoC\\ServicesDependencyContainer.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.IoC\\ServicesDependencyContainer.cs",
-              "RelativeToolTip": "UniversitarySystem.IoC\\ServicesDependencyContainer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "TypeCareersPresenter.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystemPresenters\\Implementations\\TypeCareersPresenter.cs",
+              "RelativeDocumentMoniker": "UniversitarySystemPresenters\\Implementations\\TypeCareersPresenter.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystemPresenters\\Implementations\\TypeCareersPresenter.cs",
+              "RelativeToolTip": "UniversitarySystemPresenters\\Implementations\\TypeCareersPresenter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T23:38:41.533Z",
+              "WhenOpened": "2024-10-03T13:07:52.604Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "DependencyContainer.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.UsesCases\\DependencyContainer.cs",
-              "RelativeDocumentMoniker": "UniversitarySystem.UsesCases\\DependencyContainer.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.UsesCases\\DependencyContainer.cs",
-              "RelativeToolTip": "UniversitarySystem.UsesCases\\DependencyContainer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Title": "TypeCareersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystemGateways\\Implementations\\TypeCareersRepository.cs",
+              "RelativeDocumentMoniker": "UniversitarySystemGateways\\Implementations\\TypeCareersRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystemGateways\\Implementations\\TypeCareersRepository.cs",
+              "RelativeToolTip": "UniversitarySystemGateways\\Implementations\\TypeCareersRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T23:37:56.76Z",
+              "WhenOpened": "2024-10-03T12:52:55.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TypeCareersInteractor.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.UsesCases\\Interactors\\TypeCareersInteractor.cs",
+              "RelativeDocumentMoniker": "UniversitarySystem.UsesCases\\Interactors\\TypeCareersInteractor.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.UsesCases\\Interactors\\TypeCareersInteractor.cs",
+              "RelativeToolTip": "UniversitarySystem.UsesCases\\Interactors\\TypeCareersInteractor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T12:47:29.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ITypeCareersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.UsesCases\\BusinessObject\\Repository\\ITypeCareersRepository.cs",
+              "RelativeDocumentMoniker": "UniversitarySystem.UsesCases\\BusinessObject\\Repository\\ITypeCareersRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.UsesCases\\BusinessObject\\Repository\\ITypeCareersRepository.cs",
+              "RelativeToolTip": "UniversitarySystem.UsesCases\\BusinessObject\\Repository\\ITypeCareersRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T12:45:32.585Z",
               "EditorCaption": ""
             }
           ]

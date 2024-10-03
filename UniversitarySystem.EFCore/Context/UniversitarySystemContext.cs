@@ -18,7 +18,7 @@ namespace UniversitarySystem.EFCore.Context
         public DbSet<ProvinceEntity> Provinces { get; set; }
         public DbSet<CityEntity> Cities { get; set; }
         public DbSet<AddressEntity> DetailAddress { get; set; }
-        public DbSet<TypeCareers> TypeCareers { get; set; }
+        public DbSet<TypeCareersEntity> TypeCareers { get; set; }
         public DbSet<Student_CollegeCareerEntity> Students_CollegeCareers { get; set; }
         public DbSet<Psychophysical_DetailsEntity> Psychophysicals_Details { get; set; }
 
