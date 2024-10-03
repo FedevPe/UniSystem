@@ -10,7 +10,8 @@ namespace Microsoft.Extensions.DependencyInjection
             services.AddSingleton<ICityRepository, CityRepository>()
                     .AddSingleton<ICollegeCareerRepository, CollegeCareerRepository>()
                     .AddSingleton<IProvinceRepository, ProvinceRepository>()
-                    .AddSingleton<IStudentRepository, StudentRepository>();
+                    .AddSingleton<IStudentRepository, StudentRepository>()
+                    .AddSingleton<ITypeCareersRepository, TypeCareersRepository>();
 
             return services;
         }

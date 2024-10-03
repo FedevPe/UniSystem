@@ -10,7 +10,7 @@ namespace UniversitarySystem.WebAPI
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-            builder.Services.AddServices(dbOptions =>
+            builder.Services.AddDBContextServices(dbOptions =>
                 builder.Configuration.GetSection(
                     DBOption.SectionKey).Bind(dbOptions));
 

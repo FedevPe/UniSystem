@@ -10,7 +10,8 @@ public static class DependencyContainerController
         services.AddSingleton<ICityController, CityController>()
                 .AddSingleton<ICollegeCareerController, CollegeCareerController>()
                 .AddSingleton<IProvinceController, ProvinceController>()
-                .AddSingleton<IStudentController, StudentController>();
+                .AddSingleton<IStudentController, StudentController>()
+                .AddSingleton<ITypeCareersController, TypeCareersController>();
 
         return services;
     }

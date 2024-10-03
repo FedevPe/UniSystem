@@ -11,6 +11,7 @@ using UniversitarySystemGateways.Interfaces.CollegeCareers;
 using UniversitarySystemGateways.Interfaces.ProvincesAndCities;
 using UniversitarySystemGateways.Interfaces.Student;
 using UniversitarySystemGateways.Interfaces.TitleInformation;
+using UniversitarySystemGateways.Interfaces.TypeCareers;
 
 namespace Microsoft.Extensions.DependencyInjection
 {
@@ -23,20 +24,22 @@ namespace Microsoft.Extensions.DependencyInjection
 
             services.AddTransient<IAddressInformationCommandServices, AddressInfoCommandServices>()
                     .AddTransient<IAddressInformationQueriesServices, AddressInfoQueriesServices>()
-                        
+
                     .AddTransient<IBloodTypeQueriesServices, BloodTypeQueriesServices>()
-                        
+
                     .AddTransient<ICollegeCareersCommandServices, CollegeCareersCommandServices>()
                     .AddTransient<ICollegeCareersQueriesServices, CollegeCareersQueriesServices>()
-                        
+
                     .AddTransient<ICityQueryServices, CityQueryServices>()
                     .AddTransient<IProvinceQueryServices, ProvinceQueryServices>()
-                        
+
                     .AddTransient<IStudentCommandServices, StudentCommandServices>()
                     .AddTransient<IStudentQueryServices, StudentQuerysServices>()
-                        
+
                     .AddTransient<ITitleInformationCommandServices, TitleInfoCommandServices>()
-                    .AddTransient<ITitleInfomationQueriesServices, TitleInfoQueriesServices>();
+                    .AddTransient<ITitleInfomationQueriesServices, TitleInfoQueriesServices>()
+
+                    .AddTransient<ITypeCareersQueriesServices, ITypeCareersQueriesServices>();
 
             return services;
         }

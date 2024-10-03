@@ -4,7 +4,7 @@ namespace Microsoft.Extensions.DependencyInjection
 {
     public static class ServicesDependencyContainer
     {
-        public static IServiceCollection AddServices(
+        public static IServiceCollection AddDBContextServices(
             this IServiceCollection services,
             Action<DBOption> configureDBOptions)
         {

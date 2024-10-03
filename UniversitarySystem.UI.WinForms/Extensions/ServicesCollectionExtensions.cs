@@ -9,7 +9,7 @@ public static class ServicesCollectionExtensions
     public static IServiceCollection AddDatabaseServices(this IServiceCollection services,
         IConfiguration configuration)
     {
-        services.AddServices(options =>
+        services.AddDBContextServices(options =>
         {
             configuration.GetSection(DBOption.SectionKey).Bind(options);
         });

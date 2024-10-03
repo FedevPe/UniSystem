@@ -2,6 +2,7 @@
 using UniversitarySystem.UsesCases.BusinessObject.Interfaces.CollegeCareers;
 using UniversitarySystem.UsesCases.BusinessObject.Interfaces.Provinces;
 using UniversitarySystem.UsesCases.BusinessObject.Interfaces.Student;
+using UniversitarySystem.UsesCases.BusinessObject.Interfaces.TypeCareers;
 using UniversitarySystemPresenters.Implementations;
 
 namespace Microsoft.Extensions.DependencyInjection;
@@ -13,7 +14,8 @@ public static class DependencyContainer
         services.AddSingleton<ICityOutputPort, CityPresenter>()
                 .AddSingleton<ICollegeCareerOutputPort, CollegeCareerPresenter>()
                 .AddSingleton<IProvinceOutputPort, ProvincePresenter>()
-                .AddSingleton<IStudentOutputPort, StudentPresenter>();
+                .AddSingleton<IStudentOutputPort, StudentPresenter>()
+                .AddSingleton<ITypeCareersOutputPort, TypeCareersPresenter>();
 
         return services;
     }
