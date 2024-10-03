@@ -1,6 +1,4 @@
-﻿@using Microsoft.AspNetCore.Components.Routing
-@using Microsoft.AspNetCore.Components.Sections
-@inherits LayoutComponentBase
+﻿@inherits LayoutComponentBase
 
 <div class=" d-flex flex-colum vh-100">
     <div class="container-fluid flex-grow-1">
@@ -17,9 +15,9 @@
                     </ChildContent>
                     <ErrorContent>
                         <ExceptionDisplayComponent Exception="context" >
-                        @* <button class="btn bnt-danger" @onclick=Recover>
-                            Reset
-                        </button> *@
+                            @* <button class="btn bnt-danger" @onclick=Recover>
+                                Reset
+                            </button> *@ 
                         </ExceptionDisplayComponent>
                     </ErrorContent>
                 </ErrorBoundary>

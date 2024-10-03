@@ -14,14 +14,11 @@ namespace UniversitarySystem.Views.ViewModels.AddStudent
         public string Address { get; set; }
         public string ZipCode { get; set; }
         public int CityId { get; set; }
-
-        public CityDTO City { get; set; }
-        public ProvinceDTO Province { get; set; }
-
+        public int ProvinceId { get; set; }
 
         //Propiedades para almacenar las datos obtenidos del contexto y mostrarlos
-        public IEnumerable<ProvinceDTO> ProvincesList { get; set; }
-        public IEnumerable<CityDTO> CitiesList { get; set; }
+        public IEnumerable<ProvinceDTO> ProvincesList { get; set; } = [];
+        public IEnumerable<CityDTO> CitiesList { get; set; } = [];
 
         public async Task ShowListProvinces()
         {
@@ -39,7 +36,8 @@ namespace UniversitarySystem.Views.ViewModels.AddStudent
                 addressViewModel.StudentId,
                 addressViewModel.Address,
                 addressViewModel.ZipCode,
-                addressViewModel.CityId
+                addressViewModel.CityId,
+                addressViewModel.ProvinceId
              );
             
         }

@@ -2,7 +2,7 @@
 
 namespace UniversitarySystem.Views.ViewModels.AddStudent
 {
-    //Deberia recibir los controladores que sean necesario (, )
+    //Deberia recibir los controladores que sean necesario ( )
     public class TitleInformationViewModel
     {
         public int Id { get; set; }

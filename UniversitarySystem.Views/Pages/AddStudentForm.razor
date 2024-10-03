@@ -1,19 +1,17 @@
 ﻿@page "/addStudentForm"
-@inject IStudentController StudentController
+@inject AddStudentFormViewModel StudentModel
 
-<div class="container-fluid">
-    <SupTitleBarComponent ClassIconBar="@barIconClass" TitleBarSup="@supTitleBar"/>
-</div>
+<SupTitleBarComponent ClassIconBar="@barIconClass" TitleBarSup="@supTitleBar"/>
 
-<EditForm Model="@StudentModel">
-    <PersonalInformationComp PersonalInformation="@StudentModel.PersonalInformation"/>
+<EditForm Model="@StudentModel" OnInvalidSubmit="SaveStudent">
+    <PersonalInformationComp/>
     <div class="container-fluid">
         <div class="row">
             <div class="col mt-3">
-                <AddressInformationComp AddressInformation="@StudentModel.AddressInformation" />
+                <AddressInformationComp/>
             </div>
             <div class="col mt-3">
-                <TitleInformationComp TitleInformation="@StudentModel.TitleInformation" />
+                <TitleInformationComp/>
             </div>
         </div>
     </div>
@@ -39,5 +37,8 @@
     private string supTitleBar = "Nuevo estudiante";
     private string barIconClass = "fa-solid fa-user-plus";
 
-    private AddStudentFormViewModel StudentModel { get; set; }
+    private async Task SaveStudent()
+    {
+        await StudentModel.Send();
+    }
 }

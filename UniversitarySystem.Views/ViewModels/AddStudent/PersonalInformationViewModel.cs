@@ -18,7 +18,7 @@ namespace UniversitarySystem.Views.ViewModels.AddStudent
 
         //Propiedad para guarda el id de la carrera al que el estudiante se inscribe
         public int IdCollegeCareer { get; set; }
-        public IEnumerable<CollegeCareerDTO> CollegeCareer { get; set; }
+        public IEnumerable<CollegeCareerDTO> CollegeCareer { get; set; } = [];
 
         public async Task ListCollegeCareers()
         {

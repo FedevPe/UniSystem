@@ -1,4 +1,5 @@
-﻿@using UniversitarySystem.Views.ViewModels.AddStudent
+﻿@inject PersonalInformationViewModel PersonalInformation
+
 <EditForm Model="@PersonalInformation">
     <div class="container-fluid">
         <nav class="shadow p-3 mt-3 bg-white rounded-3">
@@ -40,10 +41,13 @@
                     <InputText @bind-Value="PersonalInformation.Email" class="form-control" id="Email" placeholder="Email" />
                     <label class="form-label ms-2" for="Email">Email</label>
                     <div class="form-floating mt-4">
-                        <InputSelect @bind-Value="PersonalInformation.IdCollegeCareer" class="form-select mt-3" type="date" id="DateOfBirth" placeholder="Fecha de nacimiento">
-
+                        <InputSelect @bind-Value="PersonalInformation.IdCollegeCareer" class="form-select mt-3" id="SelectedCollegeCareer" placeholder="">
+                            @foreach (var item in PersonalInformation.CollegeCareer)
+                            {
+                                <option value="@item.Id">@item.Name</option>
+                            }
                         </InputSelect>
-                        <label class="form-label " for="DateOfBirth">Carrera a la que se inscribe:</label>
+                        <label class="form-label " for="SelectedCollegeCareer">Carrera a la que se inscribe:</label>
                     </div>
                 </div>
             </div>
@@ -53,6 +57,8 @@
 
 @code {
 
-    [Parameter]
-    public PersonalInformationViewModel PersonalInformation { get; set; }
+    protected override async Task OnInitializedAsync()
+    {
+        await PersonalInformation.ListCollegeCareers();
+    }
 }

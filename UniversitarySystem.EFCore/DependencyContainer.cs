@@ -5,6 +5,7 @@ using UniversitarySystem.EFCore.Services.CollegeCareers;
 using UniversitarySystem.EFCore.Services.ProvincesAndCities;
 using UniversitarySystem.EFCore.Services.Students;
 using UniversitarySystem.EFCore.Services.TitleInformation;
+using UniversitarySystem.EFCore.Services.TypeCareers;
 using UniversitarySystemGateways.Interfaces.AddressInformation;
 using UniversitarySystemGateways.Interfaces.BloodType;
 using UniversitarySystemGateways.Interfaces.CollegeCareers;
@@ -39,7 +40,7 @@ namespace Microsoft.Extensions.DependencyInjection
                     .AddTransient<ITitleInformationCommandServices, TitleInfoCommandServices>()
                     .AddTransient<ITitleInfomationQueriesServices, TitleInfoQueriesServices>()
 
-                    .AddTransient<ITypeCareersQueriesServices, ITypeCareersQueriesServices>();
+                    .AddTransient<ITypeCareersQueriesServices, TypeCareersQueriesServices>();
 
             return services;
         }

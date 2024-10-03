@@ -1,32 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{5410B57C-214A-4387-A0DA-F520CEEE0C53}|UniversitarySystemControllers\\UniversitarySystemControllers.csproj|c:\\users\\usuario\\desktop\\instituto\\2\u00B0a\u00F1o\\programacion ii\\repositorios\\unisystem\\universitarysystemcontrollers\\implementations\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5410B57C-214A-4387-A0DA-F520CEEE0C53}|UniversitarySystemControllers\\UniversitarySystemControllers.csproj|solutionrelative:universitarysystemcontrollers\\implementations\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5410B57C-214A-4387-A0DA-F520CEEE0C53}|UniversitarySystemControllers\\UniversitarySystemControllers.csproj|c:\\users\\usuario\\desktop\\instituto\\2\u00B0a\u00F1o\\programacion ii\\repositorios\\unisystem\\universitarysystemcontrollers\\implementations\\collegecareercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5410B57C-214A-4387-A0DA-F520CEEE0C53}|UniversitarySystemControllers\\UniversitarySystemControllers.csproj|solutionrelative:universitarysystemcontrollers\\implementations\\collegecareercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5410B57C-214A-4387-A0DA-F520CEEE0C53}|UniversitarySystemControllers\\UniversitarySystemControllers.csproj|c:\\users\\usuario\\desktop\\instituto\\2\u00B0a\u00F1o\\programacion ii\\repositorios\\unisystem\\universitarysystemcontrollers\\implementations\\provincecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5410B57C-214A-4387-A0DA-F520CEEE0C53}|UniversitarySystemControllers\\UniversitarySystemControllers.csproj|solutionrelative:universitarysystemcontrollers\\implementations\\provincecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5410B57C-214A-4387-A0DA-F520CEEE0C53}|UniversitarySystemControllers\\UniversitarySystemControllers.csproj|c:\\users\\usuario\\desktop\\instituto\\2\u00B0a\u00F1o\\programacion ii\\repositorios\\unisystem\\universitarysystemcontrollers\\implementations\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5410B57C-214A-4387-A0DA-F520CEEE0C53}|UniversitarySystemControllers\\UniversitarySystemControllers.csproj|solutionrelative:universitarysystemcontrollers\\implementations\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5410B57C-214A-4387-A0DA-F520CEEE0C53}|UniversitarySystemControllers\\UniversitarySystemControllers.csproj|c:\\users\\usuario\\desktop\\instituto\\2\u00B0a\u00F1o\\programacion ii\\repositorios\\unisystem\\universitarysystemcontrollers\\implementations\\typecareerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5410B57C-214A-4387-A0DA-F520CEEE0C53}|UniversitarySystemControllers\\UniversitarySystemControllers.csproj|solutionrelative:universitarysystemcontrollers\\implementations\\typecareerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5410B57C-214A-4387-A0DA-F520CEEE0C53}|UniversitarySystemControllers\\UniversitarySystemControllers.csproj|c:\\users\\usuario\\desktop\\instituto\\2\u00B0a\u00F1o\\programacion ii\\repositorios\\unisystem\\universitarysystemcontrollers\\universitarysystemcontrollers.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{5410B57C-214A-4387-A0DA-F520CEEE0C53}|UniversitarySystemControllers\\UniversitarySystemControllers.csproj|solutionrelative:universitarysystemcontrollers\\universitarysystemcontrollers.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -34,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 240,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -43,84 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TypeCareersController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystemControllers\\Implementations\\TypeCareersController.cs",
-              "RelativeDocumentMoniker": "UniversitarySystemControllers\\Implementations\\TypeCareersController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystemControllers\\Implementations\\TypeCareersController.cs",
-              "RelativeToolTip": "UniversitarySystemControllers\\Implementations\\TypeCareersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T13:33:00.573Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystemControllers\\Implementations\\StudentController.cs",
-              "RelativeDocumentMoniker": "UniversitarySystemControllers\\Implementations\\StudentController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystemControllers\\Implementations\\StudentController.cs",
-              "RelativeToolTip": "UniversitarySystemControllers\\Implementations\\StudentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T13:32:44.165Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProvinceController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystemControllers\\Implementations\\ProvinceController.cs",
-              "RelativeDocumentMoniker": "UniversitarySystemControllers\\Implementations\\ProvinceController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystemControllers\\Implementations\\ProvinceController.cs",
-              "RelativeToolTip": "UniversitarySystemControllers\\Implementations\\ProvinceController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T13:32:30.632Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CollegeCareerController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystemControllers\\Implementations\\CollegeCareerController.cs",
-              "RelativeDocumentMoniker": "UniversitarySystemControllers\\Implementations\\CollegeCareerController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystemControllers\\Implementations\\CollegeCareerController.cs",
-              "RelativeToolTip": "UniversitarySystemControllers\\Implementations\\CollegeCareerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T13:31:54.462Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UniversitarySystemControllers",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystemControllers\\UniversitarySystemControllers.csproj",
-              "RelativeDocumentMoniker": "UniversitarySystemControllers\\UniversitarySystemControllers.csproj",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystemControllers\\UniversitarySystemControllers.csproj",
-              "RelativeToolTip": "UniversitarySystemControllers\\UniversitarySystemControllers.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-03T13:29:20.817Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CityController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystemControllers\\Implementations\\CityController.cs",
-              "RelativeDocumentMoniker": "UniversitarySystemControllers\\Implementations\\CityController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystemControllers\\Implementations\\CityController.cs",
-              "RelativeToolTip": "UniversitarySystemControllers\\Implementations\\CityController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T13:28:19.889Z",
-              "EditorCaption": ""
             }
           ]
         },

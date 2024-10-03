@@ -1,4 +1,5 @@
 ﻿@using UniversitarySystem.Views.ViewModels.AddStudent
+@inject AddressInformationViewModel AddressInformation
 
 <EditForm Model="@AddressInformation">
     <nav class="shadow p-3 rounded-3 bg-white mt-3 ">
@@ -22,11 +23,21 @@
         *@
         <div class="row mt-4">
             <div class="form-floating col-lg-5 mx-auto mb-2">
-                <select class="form-select" name="Provincia" id="Province" placeholder="Provincia"></select>
+                <InputSelect @bind-Value="AddressInformation.ProvinceId" class="form-select" name="Provincia" id="Province" placeholder="Provincia" onchange="LoadCities">
+                    @foreach (var item in AddressInformation.ProvincesList)
+                    {
+                        <option value="@item.Id">@item.Name</option>
+                    }
+                </InputSelect>
                 <label class="form-label ms-2" for="Province">Provincia</label>
             </div>
             <div class="form-floating col-lg-5 mx-auto mb-2">
-                <select class="form-select" name="Provincia" id="Locality" placeholder="Provincia"></select>
+                <InputSelect @bind-Value="@AddressInformation.CityId" class="form-select" name="Locality" id="Locality" placeholder="">
+                    @foreach (var item in AddressInformation.CitiesList)
+                    {
+                        <option value="@item.Id">@item.Name</option>
+                    }
+                </InputSelect>
                 <label class="form-label ms-2" for="Province">Localidad</label>
             </div>
         </div>
@@ -34,6 +45,13 @@
 </EditForm>
 
 @code {
-    [Parameter]
-    public AddressInformationViewModel AddressInformation { get; set; }
+    protected override async Task OnInitializedAsync()
+    {
+        await AddressInformation.ShowListProvinces();
+    }
+    private async Task LoadCities(ChangeEventArgs e)
+    {
+        AddressInformation.ProvinceId = int.Parse(e.Value.ToString());
+        await AddressInformation.ShowListCities(AddressInformation.ProvinceId);
+    }
 }

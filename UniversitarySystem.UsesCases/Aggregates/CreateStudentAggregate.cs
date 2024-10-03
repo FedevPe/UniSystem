@@ -47,7 +47,7 @@ namespace UniversitarySystem.UsesCases.Aggregates
                     createStudentDTO.AddressStudent.StudentId,
                     createStudentDTO.AddressStudent.Address,
                     createStudentDTO.AddressStudent.ZipCode,
-                    createStudentDTO.AddressStudent.IdCity
+                    createStudentDTO.AddressStudent.CityId
                     );
             }
             return studentAggregate;

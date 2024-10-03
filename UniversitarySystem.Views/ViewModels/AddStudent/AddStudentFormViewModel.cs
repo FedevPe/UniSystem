@@ -7,7 +7,7 @@ namespace UniversitarySystem.Views.ViewModels.AddStudent
     public class AddStudentFormViewModel(IStudentController controller)
     {
         public PersonalInformationViewModel PersonalInformation { get; set; }
-        public AddressInformationViewModel AddressInformation { get; set; }
+        public AddressInformationViewModel AddressInformation { get; set; } 
         public TitleInformationViewModel TitleInformation { get; set; }
 
         public async Task Send()
