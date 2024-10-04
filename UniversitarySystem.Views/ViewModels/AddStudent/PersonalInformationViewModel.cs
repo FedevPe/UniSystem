@@ -10,7 +10,7 @@ namespace UniversitarySystem.Views.ViewModels.AddStudent
         public string LastName { get; set; }
         public string DNI { get; set; }
         public string CUIL { get; set; }
-        public DateOnly DateOfBirth { get; set; }
+        public DateOnly DateOfBirth { get; set; } = DateOnly.FromDateTime(DateTime.Now);
         public string NumberPhone { get; set; }
         public string Email { get; set; }
         public DateOnly DateRegistry { get; set; } = DateOnly.FromDateTime(DateTime.Now);

@@ -43,7 +43,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InversionOfControl", "Inver
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UniversitarySystem.IoC", "UniversitarySystem.IoC\UniversitarySystem.IoC.csproj", "{654A11C2-6C95-4316-977A-826D3DBF9EC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversitarySystem.WebAPI", "UniversitarySystem.WebAPI\UniversitarySystem.WebAPI.csproj", "{E840BDCE-91FB-4CE7-B989-24B5428F1C77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UniversitarySystem.WebAPI", "UniversitarySystem.WebAPI\UniversitarySystem.WebAPI.csproj", "{E840BDCE-91FB-4CE7-B989-24B5428F1C77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

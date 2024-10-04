@@ -25,19 +25,6 @@ namespace UniversitarySystem.EFCore.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "CollegeCareers",
-                columns: table => new
-                {
-                    IdCollegeCareer = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    CollegeCareer = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_CollegeCareers", x => x.IdCollegeCareer);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "DetailsTypeEntity",
                 columns: table => new
                 {
@@ -85,23 +72,36 @@ namespace UniversitarySystem.EFCore.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "TypeCareers",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Type = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_TypeCareers", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Details",
                 columns: table => new
                 {
                     IdDetail = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(150)", maxLength: 150, nullable: false),
-                    DetailTypeÍd = table.Column<int>(type: "int", nullable: false),
-                    DetailTypeIdDetailType = table.Column<int>(type: "int", nullable: true)
+                    DetailTypeId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Details", x => x.IdDetail);
                     table.ForeignKey(
-                        name: "FK_Details_DetailsTypeEntity_DetailTypeIdDetailType",
-                        column: x => x.DetailTypeIdDetailType,
+                        name: "FK_Details_DetailsTypeEntity_DetailTypeId",
+                        column: x => x.DetailTypeId,
                         principalTable: "DetailsTypeEntity",
-                        principalColumn: "IdDetailType");
+                        principalColumn: "IdDetailType",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -121,30 +121,6 @@ namespace UniversitarySystem.EFCore.Migrations
                         column: x => x.ProvinceId,
                         principalTable: "Provinces",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "CollegeCareers.Students",
-                columns: table => new
-                {
-                    StudentId = table.Column<int>(type: "int", nullable: false),
-                    CollegeCareerId = table.Column<int>(type: "int", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_CollegeCareers.Students", x => new { x.StudentId, x.CollegeCareerId });
-                    table.ForeignKey(
-                        name: "FK_CollegeCareers.Students_CollegeCareers_CollegeCareerId",
-                        column: x => x.CollegeCareerId,
-                        principalTable: "CollegeCareers",
-                        principalColumn: "IdCollegeCareer",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_CollegeCareers.Students_Students_StudentId",
-                        column: x => x.StudentId,
-                        principalTable: "Students",
-                        principalColumn: "IdStudent",
                         onDelete: ReferentialAction.Cascade);
                 });
 
@@ -194,6 +170,28 @@ namespace UniversitarySystem.EFCore.Migrations
                         column: x => x.StudentId,
                         principalTable: "Students",
                         principalColumn: "IdStudent",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "CollegeCareers",
+                columns: table => new
+                {
+                    IdCollegeCareer = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    CollegeCareer = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
+                    Duration = table.Column<int>(type: "int", nullable: false),
+                    Description = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: false),
+                    TypeCareersId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_CollegeCareers", x => x.IdCollegeCareer);
+                    table.ForeignKey(
+                        name: "FK_CollegeCareers_TypeCareers_TypeCareersId",
+                        column: x => x.TypeCareersId,
+                        principalTable: "TypeCareers",
+                        principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
 
@@ -249,10 +247,39 @@ namespace UniversitarySystem.EFCore.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "CollegeCareers.Students",
+                columns: table => new
+                {
+                    StudentId = table.Column<int>(type: "int", nullable: false),
+                    CollegeCareerId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_CollegeCareers.Students", x => new { x.StudentId, x.CollegeCareerId });
+                    table.ForeignKey(
+                        name: "FK_CollegeCareers.Students_CollegeCareers_CollegeCareerId",
+                        column: x => x.CollegeCareerId,
+                        principalTable: "CollegeCareers",
+                        principalColumn: "IdCollegeCareer",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_CollegeCareers.Students_Students_StudentId",
+                        column: x => x.StudentId,
+                        principalTable: "Students",
+                        principalColumn: "IdStudent",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
             migrationBuilder.CreateIndex(
                 name: "IX_Cities_ProvinceId",
                 table: "Cities",
                 column: "ProvinceId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_CollegeCareers_TypeCareersId",
+                table: "CollegeCareers",
+                column: "TypeCareersId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_CollegeCareers.Students_CollegeCareerId",
@@ -270,9 +297,9 @@ namespace UniversitarySystem.EFCore.Migrations
                 column: "StudentId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Details_DetailTypeIdDetailType",
+                name: "IX_Details_DetailTypeId",
                 table: "Details",
-                column: "DetailTypeIdDetailType");
+                column: "DetailTypeId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Details.Psychophysicals_PsychophysicalId",
@@ -321,6 +348,9 @@ namespace UniversitarySystem.EFCore.Migrations
 
             migrationBuilder.DropTable(
                 name: "Psychophysicals");
+
+            migrationBuilder.DropTable(
+                name: "TypeCareers");
 
             migrationBuilder.DropTable(
                 name: "Provinces");

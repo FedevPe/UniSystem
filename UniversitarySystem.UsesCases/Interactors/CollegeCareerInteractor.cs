@@ -16,7 +16,7 @@ namespace UniversitarySystem.UsesCases.Interactors
                 CollegeCareer = collegeCareer.Name,
                 Description = collegeCareer.Description,
                 Duration = collegeCareer.Duration,
-                TypeId = collegeCareer.TypeId
+                TypeCareersId = collegeCareer.TypeId
             };
 
             await repository.AddCollegeCareer(entity);

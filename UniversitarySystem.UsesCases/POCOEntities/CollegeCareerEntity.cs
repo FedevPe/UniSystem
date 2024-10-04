@@ -6,7 +6,9 @@
         public string CollegeCareer { get; set; }
         public int Duration { get; set; }
         public string Description { get; set; }
-        public int TypeId { get; set; }
+
+
+        public int TypeCareersId { get; set; }
         public TypeCareersEntity TypeCareers { get; set; }
 
         //Propiedad para establecer relación de muchos a muchos.

@@ -16,6 +16,7 @@ namespace UniversitarySystem.EFCore.Context
         public DbSet<ProvinceEntity> Provinces { get; set; }
         public DbSet<CityEntity> Cities { get; set; }
         public DbSet<AddressEntity> DetailAddress { get; set; }
+        public DbSet<TypeCareersEntity> TypeCareers { get; set; }
         public DbSet<Student_CollegeCareerEntity> Students_CollegeCareers { get; set; }
         public DbSet<Psychophysical_DetailsEntity> Psychophysicals_Details { get; set; }
 
@@ -23,7 +24,7 @@ namespace UniversitarySystem.EFCore.Context
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //Establece la conexión con la base de datos.
-            optionsBuilder.UseSqlServer("Data Source=DESKTOP-IE152FG\\SQLEXPRESS;database=UniversitarySystem_DB;Integrated Security=True;Connect Timeout=30;Encrypt=True;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False");
+            optionsBuilder.UseSqlServer("Data Source=DESKTOP-IE152FG\\SQLEXPRESS;database=UniSystem_DB;Integrated Security=True;Connect Timeout=30;Encrypt=True;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False");
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

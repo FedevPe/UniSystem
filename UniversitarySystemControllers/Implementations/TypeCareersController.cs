@@ -13,7 +13,7 @@ namespace UniversitarySystemControllers.Implementations
         : ITypeCareersController
     {
         [HttpGet]
-        public async Task<IEnumerable<TypeCareersDTO>> DisplayListTypeCareers()
+        public async Task<IEnumerable<TypeCareersDTO>> GetListTypeCareers()
         {
             await interactor.GetAllTypeCareers();
             return presenter.ListTypeCareers;

@@ -1,16 +1,20 @@
-﻿using UniversitarySystem.Views.ViewModels.AddStudent;
+﻿using UniversitarySystem.Views.Pages;
+using UniversitarySystem.Views.ViewModels.AddCollegeCareer;
+using UniversitarySystem.Views.ViewModels.AddStudent;
 
-namespace Microsoft.Extensions.DependencyInjection;
-
-public static class DependencyContainer
+namespace Microsoft.Extensions.DependencyInjection
 {
-    public static IServiceCollection AddViewsServices(this IServiceCollection services)
+    public static class DependencyContainer
     {
-        services.AddTransient<AddStudentFormViewModel>()
-                .AddTransient<AddressInformationViewModel>()
-                .AddTransient<PersonalInformationViewModel>()
-                .AddTransient<TitleInformationViewModel>();
+        public static IServiceCollection AddViewsServices(this IServiceCollection services)
+        {
+            services.AddTransient<AddStudentFormViewModel>()
+                    .AddTransient<AddressInformationViewModel>()
+                    .AddTransient<PersonalInformationViewModel>()
+                    .AddTransient<TitleInformationViewModel>()
+                    .AddTransient<AddCareerFormViewModel>();
 
-        return services;
+            return services;
+        }
     }
 }

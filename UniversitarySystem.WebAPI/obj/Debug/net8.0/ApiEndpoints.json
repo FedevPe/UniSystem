@@ -115,7 +115,7 @@
   },
   {
     "ContainingType": "UniversitarySystemControllers.Implementations.TypeCareersController",
-    "Method": "DisplayListTypeCareers",
+    "Method": "GetListTypeCareers",
     "RelativePath": "api/TypeCareers",
     "HttpMethod": "GET",
     "IsController": true,

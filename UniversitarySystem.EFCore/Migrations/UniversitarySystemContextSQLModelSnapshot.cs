@@ -109,7 +109,20 @@ namespace UniversitarySystem.EFCore.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
+                    b.Property<int>("Duration")
+                        .HasColumnType("int");
+
+                    b.Property<int>("TypeCareersId")
+                        .HasColumnType("int");
+
                     b.HasKey("IdCollegeCareer");
+
+                    b.HasIndex("TypeCareersId");
 
                     b.ToTable("CollegeCareers");
                 });
@@ -122,10 +135,7 @@ namespace UniversitarySystem.EFCore.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdDetail"));
 
-                    b.Property<int?>("DetailTypeIdDetailType")
-                        .HasColumnType("int");
-
-                    b.Property<int>("DetailTypeÍd")
+                    b.Property<int>("DetailTypeId")
                         .HasColumnType("int");
 
                     b.Property<string>("Name")
@@ -135,7 +145,7 @@ namespace UniversitarySystem.EFCore.Migrations
 
                     b.HasKey("IdDetail");
 
-                    b.HasIndex("DetailTypeIdDetailType");
+                    b.HasIndex("DetailTypeId");
 
                     b.ToTable("Details");
                 });
@@ -317,6 +327,24 @@ namespace UniversitarySystem.EFCore.Migrations
                     b.ToTable("Title", (string)null);
                 });
 
+            modelBuilder.Entity("UniversitarySystem.UsesCases.POCOEntities.TypeCareersEntity", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Type")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("TypeCareers");
+                });
+
             modelBuilder.Entity("UniversitarySystem.UsesCases.POCOEntities.AddressEntity", b =>
                 {
                     b.HasOne("UniversitarySystem.UsesCases.POCOEntities.CityEntity", "City")
@@ -347,11 +375,24 @@ namespace UniversitarySystem.EFCore.Migrations
                     b.Navigation("Province");
                 });
 
+            modelBuilder.Entity("UniversitarySystem.UsesCases.POCOEntities.CollegeCareerEntity", b =>
+                {
+                    b.HasOne("UniversitarySystem.UsesCases.POCOEntities.TypeCareersEntity", "TypeCareers")
+                        .WithMany()
+                        .HasForeignKey("TypeCareersId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("TypeCareers");
+                });
+
             modelBuilder.Entity("UniversitarySystem.UsesCases.POCOEntities.DetailsEntity", b =>
                 {
                     b.HasOne("UniversitarySystem.UsesCases.POCOEntities.DetailsTypeEntity", "DetailType")
                         .WithMany()
-                        .HasForeignKey("DetailTypeIdDetailType");
+                        .HasForeignKey("DetailTypeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("DetailType");
                 });

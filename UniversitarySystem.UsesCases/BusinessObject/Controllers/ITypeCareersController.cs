@@ -4,6 +4,6 @@ namespace UniversitarySystem.UsesCases.BusinessObject.Controllers
 {
     public interface ITypeCareersController
     {
-        Task<IEnumerable<TypeCareersDTO>> DisplayListTypeCareers();
+        Task<IEnumerable<TypeCareersDTO>> GetListTypeCareers();
     }
 }

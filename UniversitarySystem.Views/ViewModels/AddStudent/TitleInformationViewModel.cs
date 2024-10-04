@@ -9,7 +9,7 @@ namespace UniversitarySystem.Views.ViewModels.AddStudent
         public int StudentId { get; set; }
         public string SecondaryDegree { get; set; }
         public string HighSchool { get; set; }
-        public DateOnly EgressDate { get; set; }
+        public DateOnly EgressDate { get; set; } = DateOnly.FromDateTime(DateTime.Now);
 
         public static explicit operator TitleDTO(TitleInformationViewModel viewModel)
         {

@@ -17,7 +17,7 @@ namespace UniversitarySystemPresenters.Implementations
                                             x.CollegeCareer,
                                             x.Description,
                                             x.Duration,
-                                            x.TypeId)).ToList();
+                                            x.TypeCareersId)).ToList();
             return Task.CompletedTask;
         }
         public Task Handle(CollegeCareerEntity entity)
@@ -27,7 +27,7 @@ namespace UniversitarySystemPresenters.Implementations
                 entity.CollegeCareer,
                 entity.Description,
                 entity.Duration,
-                entity.TypeId);
+                entity.TypeCareersId);
 
             return Task.CompletedTask;
         }
