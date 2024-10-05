@@ -1,0 +1,29 @@
+﻿<section class="toast-container position-fixed bottom-0 end-0 me-3 mb-3 text-blue-800" >
+    <div class="toast @ComponentHidden" role="alert" id="notificationSave">
+        <div class="d-flex justify-content-center align-items-center
+            rounded shadow p-3 bg-white" style="border: solid 1px #2563EB;" >
+            <i class="@ClassIconNotification me-2 @ColorIcon" style="font-size: 2rem;"></i>
+            <span class="fw-bold">@Message</span>
+        </div>
+    </div>
+</section>
+<style>
+    .toast{
+        width: 250px;
+        height: auto;
+    }
+</style>
+
+@code{
+    [Parameter]
+    public string ClassIconNotification { get; set; } 
+
+    [Parameter]
+    public string ColorIcon { get; set; }
+
+    [Parameter]
+    public string Message { get; set; }
+
+    [Parameter]
+    public string ComponentHidden { get; set; }
+}

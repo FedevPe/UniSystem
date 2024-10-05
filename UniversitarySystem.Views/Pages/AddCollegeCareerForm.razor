@@ -7,15 +7,15 @@
     <section class="container-fluid mt-4 bg-white rounded shadow">
         <div class="row p-4">
             <div class="col-lg-5 mx-auto">
-                <form class="form-floating mb-4">
+                <form class="form-floating mb-2">
                     <InputText @bind-Value="CollegeCareer.Name" class="form-control" type="text" id="nameCollegeCareer" placeholder=""/>
                     <label class="form-label" for="nameCollegeCareer">Nombre de carrera</label>
                 </form>
-                <form class="form-floating">
+                <form class="form-floating mb-2">
                     <InputNumber @bind-Value="CollegeCareer.Duration" class="form-control" type="number" placeholder="" id="durationCollegeCareer"/>
                     <label class="form-label" for="durationCollegeCareer">Duración de la carrera</label>
                 </form>
-                <form class="form-floating mb-4">
+                <form class="form-floating mb-2">
                     <InputSelect @bind-Value="CollegeCareer.TypeId" class="form-select" name="" id="typeCollegeCareer" placeholder="Tipo Carrera">
                         @foreach (var item in CollegeCareer.TypesCareers)
                         {
@@ -27,23 +27,32 @@
                 <div class="mt-4">
                     <div class="col-lg-12 mx-auto mb-2">
                         <span>Descripción: </span>
-                        <InputTextArea @bind-Value="CollegeCareer.Description" class="form-control w-100 mt-3" style="height: 150px;" name="" id="aditionalComments" placeholder="Comentarios Adicionales" />                        
+                        <InputTextArea @bind-Value="CollegeCareer.Description" class="form-control w-100 mt-3" style="height: 150px;" name="" id="aditionalComments"/>                        
                     </div>
                 </div>
-                <div class="d-flex justify-content-end align-items-end h-75">
+                <div class="d-flex justify-content-end align-items-end">
                     <button class="btn btn-success btn-lg me-2" type="submit">Guardar</button>
-                    <nav href="/Home">
+                    <NavLink class="navLink" href="/">
                         <button class="btn btn-danger btn-lg">Cancelar</button>
-                    </nav>
+                    </NavLink>
                 </div>
             </div>
         </div>
     </section>
 </EditForm>
+<NotificationComponent ClassIconNotification="@classIconNotification" 
+                       ColorIcon="@colorIconNotification" 
+                       Message="@messageNotification"
+                       ComponentHidden="@showNotification"/>
 
 @code {
     private string supTitleBar = "Agregar Carrera";
     private string barIconClass = "fa-solid fa-folder-plus";
+
+    private string showNotification;
+    private string classIconNotification;
+    private string colorIconNotification;
+    private string messageNotification;
 
     protected override async Task OnInitializedAsync()
     {
@@ -52,5 +61,33 @@
     private async Task SaveCollegeCareers()
     {
         await CollegeCareer.SaveCollegeCareer();
+
+        await Notification(CollegeCareer.IsSave);
+    }
+    private async Task Notification(bool response)
+    {
+        showNotification = "show";
+        classIconNotification = "spinner-border";
+        colorIconNotification = "text-blue-800";
+        messageNotification = "Guardando...";
+
+        await Task.Delay(3000);
+
+        if (response)
+        {
+            classIconNotification = "fa-solid fa-circle-check";
+            colorIconNotification = "text-check";
+            messageNotification = "Guardado con exito!";
+        }
+        else
+        {
+            classIconNotification = "fa-solid fa-circle-exclamation";
+            colorIconNotification = "text-danger";
+            messageNotification = "Ocurrio un error";
+        }
+        StateHasChanged();
+        await Task.Delay(5000);
+        showNotification = "";
+
     }
 }

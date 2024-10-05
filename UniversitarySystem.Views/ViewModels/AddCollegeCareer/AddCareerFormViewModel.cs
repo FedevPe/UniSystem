@@ -13,7 +13,9 @@ namespace UniversitarySystem.Views.ViewModels.AddCollegeCareer
         public int Duration { get; set; }
         public int TypeId { get; set; }
 
-        public IEnumerable<TypeCareersDTO> TypesCareers { get; set; }
+        public bool IsSave { get; set; }
+
+        public IEnumerable<TypeCareersDTO> TypesCareers { get; set; } = [];
 
         public async Task DisplayTypeCareers()
         {
@@ -21,7 +23,7 @@ namespace UniversitarySystem.Views.ViewModels.AddCollegeCareer
         }
         public async Task SaveCollegeCareer()
         {
-            await controller.AddCollegeCareer((CollegeCareerDTO)this);
+            IsSave = await controller.AddCollegeCareer((CollegeCareerDTO)this);
         }
 
         public static explicit operator CollegeCareerDTO(AddCareerFormViewModel viewModel)

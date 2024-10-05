@@ -16,14 +16,14 @@
                 <label class="form-label ms-2" for="ZipCode">Código postal</label>
             </div>
         </div>
-
         @*
         Configurar esta parte para obtener las provincias desde la base de datos y
         a partir de la provincia elegida obtener las localidades que pertenecen a ella
         *@
         <div class="row mt-4">
             <div class="form-floating col-lg-5 mx-auto mb-2">
-                <InputSelect @bind-Value="AddressInformation.ProvinceId" class="form-select" name="Provincia" id="Province" placeholder="Provincia" onchange="LoadCities">
+                <InputSelect @bind-Value="AddressInformation.ProvinceId" class="form-select" name="Provincia" id="Province" placeholder="Provincia">
+                    <option value="0">...</option>
                     @foreach (var item in AddressInformation.ProvincesList)
                     {
                         <option value="@item.Id">@item.Name</option>
@@ -33,6 +33,7 @@
             </div>
             <div class="form-floating col-lg-5 mx-auto mb-2">
                 <InputSelect @bind-Value="@AddressInformation.CityId" class="form-select" name="Locality" id="Locality" placeholder="">
+                    <option value="0">...</option>
                     @foreach (var item in AddressInformation.CitiesList)
                     {
                         <option value="@item.Id">@item.Name</option>
@@ -49,9 +50,9 @@
     {
         await AddressInformation.ShowListProvinces();
     }
-    private async Task LoadCities(ChangeEventArgs e)
-    {
-        AddressInformation.ProvinceId = int.Parse(e.Value.ToString());
-        await AddressInformation.ShowListCities(AddressInformation.ProvinceId);
+    private async Task LoadCities(int id)
+    {        
+        await AddressInformation.ShowListCities(id);
+        StateHasChanged();
     }
 }

@@ -5,8 +5,9 @@ namespace UniversitarySystem.UsesCases.BusinessObject.Interfaces.CollegeCareers
 {
     public interface ICollegeCareerOutputPort
     {
-        public CollegeCareerDTO CollegeCareer { get;}
-        public IEnumerable<CollegeCareerDTO> ListCareers { get;}
+        public bool IsSave { get; }
+        public CollegeCareerDTO CollegeCareer { get; }
+        public IEnumerable<CollegeCareerDTO> ListCareers { get; }
         Task Handle(CollegeCareerEntity entity);
         Task HandleList(IEnumerable<CollegeCareerEntity> list);
     }

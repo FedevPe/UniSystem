@@ -12,9 +12,10 @@ namespace UniversitarySystemControllers.Implementations
         ICollegeCareerInputPort inputPort) : ICollegeCareerController
     {
         [HttpPost]
-        public async Task AddCollegeCareer(CollegeCareerDTO collegeCareer)
+        public async Task<bool> AddCollegeCareer(CollegeCareerDTO collegeCareer)
         {
             await inputPort.Handle(collegeCareer);
+            return outputPort.IsSave;
         }
         [HttpGet]
         public async Task<IEnumerable<CollegeCareerDTO>> DisplayListCareers()

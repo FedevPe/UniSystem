@@ -21,8 +21,6 @@ namespace UniversitarySystem.UsesCases.Interactors
 
             await repository.AddCollegeCareer(entity);
             await repository.SaveChanges();
-
-            // Podrías llamar al OutputPort si necesitas pasar algún dato a la UI
             await outputPort.Handle(entity);
         }
         public async Task GetListCareers()
