@@ -66,6 +66,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkU3R1ZGVudEZvcm0ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Usuario/Desktop/Instituto/2°Año/Programacion II/Repositorios/UniSystem/UniversitarySystem.Views/Pages/CollegeCareers.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29sbGVnZUNhcmVlcnMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Usuario/Desktop/Instituto/2°Año/Programacion II/Repositorios/UniSystem/UniversitarySystem.Views/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -73,3 +77,7 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/Usuario/Desktop/Instituto/2°Año/Programacion II/Repositorios/UniSystem/UniversitarySystem.Views/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuario/Desktop/Instituto/2°Año/Programacion II/Repositorios/UniSystem/UniversitarySystem.Views/Components/SecCareers/CardCollegeCareers.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTZWNDYXJlZXJzXENhcmRDb2xsZWdlQ2FyZWVycy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-oywnfs0wjb

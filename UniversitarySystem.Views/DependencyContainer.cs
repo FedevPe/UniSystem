@@ -1,5 +1,4 @@
-﻿using UniversitarySystem.Views.Pages;
-using UniversitarySystem.Views.ViewModels.AddCollegeCareer;
+﻿using UniversitarySystem.Views.ViewModels.AddCollegeCareer;
 using UniversitarySystem.Views.ViewModels.AddStudent;
 
 namespace Microsoft.Extensions.DependencyInjection
@@ -12,7 +11,8 @@ namespace Microsoft.Extensions.DependencyInjection
                     .AddTransient<AddressInformationViewModel>()
                     .AddTransient<PersonalInformationViewModel>()
                     .AddTransient<TitleInformationViewModel>()
-                    .AddTransient<AddCareerFormViewModel>();
+                    .AddTransient<AddCareerFormViewModel>()
+                    .AddTransient<CollegeCareerViewModel>();
 
             return services;
         }

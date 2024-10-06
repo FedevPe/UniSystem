@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A43B48A3-C48D-4AC1-ABB7-2C3C3F575339}|UniversitarySystem.Views\\UniversitarySystem.Views.csproj|c:\\users\\usuario\\desktop\\instituto\\2\u00B0a\u00F1o\\programacion ii\\repositorios\\unisystem\\universitarysystem.views\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A43B48A3-C48D-4AC1-ABB7-2C3C3F575339}|UniversitarySystem.Views\\UniversitarySystem.Views.csproj|solutionrelative:universitarysystem.views\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A43B48A3-C48D-4AC1-ABB7-2C3C3F575339}|UniversitarySystem.Views\\UniversitarySystem.Views.csproj|c:\\users\\usuario\\desktop\\instituto\\2\u00B0a\u00F1o\\programacion ii\\repositorios\\unisystem\\universitarysystem.views\\pages\\collegecareers.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A43B48A3-C48D-4AC1-ABB7-2C3C3F575339}|UniversitarySystem.Views\\UniversitarySystem.Views.csproj|solutionrelative:universitarysystem.views\\pages\\collegecareers.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A43B48A3-C48D-4AC1-ABB7-2C3C3F575339}|UniversitarySystem.Views\\UniversitarySystem.Views.csproj|c:\\users\\usuario\\desktop\\instituto\\2\u00B0a\u00F1o\\programacion ii\\repositorios\\unisystem\\universitarysystem.views\\components\\addstudentform\\psychophysicalinformationcomp.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A43B48A3-C48D-4AC1-ABB7-2C3C3F575339}|UniversitarySystem.Views\\UniversitarySystem.Views.csproj|solutionrelative:universitarysystem.views\\components\\addstudentform\\psychophysicalinformationcomp.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A43B48A3-C48D-4AC1-ABB7-2C3C3F575339}|UniversitarySystem.Views\\UniversitarySystem.Views.csproj|c:\\users\\usuario\\desktop\\instituto\\2\u00B0a\u00F1o\\programacion ii\\repositorios\\unisystem\\universitarysystem.views\\dependencycontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A43B48A3-C48D-4AC1-ABB7-2C3C3F575339}|UniversitarySystem.Views\\UniversitarySystem.Views.csproj|solutionrelative:universitarysystem.views\\dependencycontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A43B48A3-C48D-4AC1-ABB7-2C3C3F575339}|UniversitarySystem.Views\\UniversitarySystem.Views.csproj|c:\\users\\usuario\\desktop\\instituto\\2\u00B0a\u00F1o\\programacion ii\\repositorios\\unisystem\\universitarysystem.views\\components\\addstudentform\\titleinformationcomp.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A43B48A3-C48D-4AC1-ABB7-2C3C3F575339}|UniversitarySystem.Views\\UniversitarySystem.Views.csproj|solutionrelative:universitarysystem.views\\components\\addstudentform\\titleinformationcomp.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A43B48A3-C48D-4AC1-ABB7-2C3C3F575339}|UniversitarySystem.Views\\UniversitarySystem.Views.csproj|c:\\users\\usuario\\desktop\\instituto\\2\u00B0a\u00F1o\\programacion ii\\repositorios\\unisystem\\universitarysystem.views\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A43B48A3-C48D-4AC1-ABB7-2C3C3F575339}|UniversitarySystem.Views\\UniversitarySystem.Views.csproj|solutionrelative:universitarysystem.views\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A43B48A3-C48D-4AC1-ABB7-2C3C3F575339}|UniversitarySystem.Views\\UniversitarySystem.Views.csproj|c:\\users\\usuario\\desktop\\instituto\\2\u00B0a\u00F1o\\programacion ii\\repositorios\\unisystem\\universitarysystem.views\\components\\addstudentform\\addressinformationcomp.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A43B48A3-C48D-4AC1-ABB7-2C3C3F575339}|UniversitarySystem.Views\\UniversitarySystem.Views.csproj|solutionrelative:universitarysystem.views\\components\\addstudentform\\addressinformationcomp.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A43B48A3-C48D-4AC1-ABB7-2C3C3F575339}|UniversitarySystem.Views\\UniversitarySystem.Views.csproj|c:\\users\\usuario\\desktop\\instituto\\2\u00B0a\u00F1o\\programacion ii\\repositorios\\unisystem\\universitarysystem.views\\components\\seccareers\\cardcollegecareers.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A43B48A3-C48D-4AC1-ABB7-2C3C3F575339}|UniversitarySystem.Views\\UniversitarySystem.Views.csproj|solutionrelative:universitarysystem.views\\components\\seccareers\\cardcollegecareers.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 240,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,54 +38,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.Views\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "UniversitarySystem.Views\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.Views\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "UniversitarySystem.Views\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.Views\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "UniversitarySystem.Views\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.Views\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "UniversitarySystem.Views\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-05T03:02:53.233Z",
+              "WhenOpened": "2024-10-06T05:10:32.753Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PsychophysicalInformationComp.razor",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.Views\\Components\\AddStudentForm\\PsychophysicalInformationComp.razor",
-              "RelativeDocumentMoniker": "UniversitarySystem.Views\\Components\\AddStudentForm\\PsychophysicalInformationComp.razor",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.Views\\Components\\AddStudentForm\\PsychophysicalInformationComp.razor",
-              "RelativeToolTip": "UniversitarySystem.Views\\Components\\AddStudentForm\\PsychophysicalInformationComp.razor",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAACoAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-05T02:51:46.319Z",
+              "Title": "DependencyContainer.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.Views\\DependencyContainer.cs",
+              "RelativeDocumentMoniker": "UniversitarySystem.Views\\DependencyContainer.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.Views\\DependencyContainer.cs",
+              "RelativeToolTip": "UniversitarySystem.Views\\DependencyContainer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T04:26:48.707Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TitleInformationComp.razor",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.Views\\Components\\AddStudentForm\\TitleInformationComp.razor",
-              "RelativeDocumentMoniker": "UniversitarySystem.Views\\Components\\AddStudentForm\\TitleInformationComp.razor",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.Views\\Components\\AddStudentForm\\TitleInformationComp.razor",
-              "RelativeToolTip": "UniversitarySystem.Views\\Components\\AddStudentForm\\TitleInformationComp.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "CollegeCareers.razor",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.Views\\Pages\\CollegeCareers.razor",
+              "RelativeDocumentMoniker": "UniversitarySystem.Views\\Pages\\CollegeCareers.razor",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.Views\\Pages\\CollegeCareers.razor",
+              "RelativeToolTip": "UniversitarySystem.Views\\Pages\\CollegeCareers.razor",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEMAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-05T01:47:50.975Z",
+              "WhenOpened": "2024-10-06T03:50:07.514Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AddressInformationComp.razor",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.Views\\Components\\AddStudentForm\\AddressInformationComp.razor",
-              "RelativeDocumentMoniker": "UniversitarySystem.Views\\Components\\AddStudentForm\\AddressInformationComp.razor",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.Views\\Components\\AddStudentForm\\AddressInformationComp.razor",
-              "RelativeToolTip": "UniversitarySystem.Views\\Components\\AddStudentForm\\AddressInformationComp.razor",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAA9AAAAAAAAAA==",
+              "Title": "CardCollegeCareers.razor",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.Views\\Components\\SecCareers\\CardCollegeCareers.razor",
+              "RelativeDocumentMoniker": "UniversitarySystem.Views\\Components\\SecCareers\\CardCollegeCareers.razor",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Instituto\\2\u00B0A\u00F1o\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.Views\\Components\\SecCareers\\CardCollegeCareers.razor",
+              "RelativeToolTip": "UniversitarySystem.Views\\Components\\SecCareers\\CardCollegeCareers.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-05T01:46:59.777Z",
+              "WhenOpened": "2024-10-06T03:45:24.754Z",
               "EditorCaption": ""
             }
           ]

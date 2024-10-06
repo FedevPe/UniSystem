@@ -1,0 +1,23 @@
+﻿.card {
+    background-color: white;
+}
+
+.card-header {
+    background-color: #1D4ED8;
+    color: white;
+}
+
+.card-footer {
+    color: black;
+}
+
+.btn-light:hover {
+    background-color: #1D4ED8;
+    border-color: white;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: white;
+    color: red;
+}

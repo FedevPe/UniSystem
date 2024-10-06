@@ -1,0 +1,132 @@
+﻿@page "/collegeCareers"
+@inject CollegeCareerViewModel viewModel
+
+<SupTitleBarComponent ClassIconBar="fa-solid fa-folder-open" TitleBarSup="Carreras"/>
+
+<section class="container p-4 mt-3 border rounded shadow bg-white">
+   <div class="row">
+       <div class="col-12">
+           <div class="text-start fw-bold fs-3">
+               <span>Buscar carrera</span>
+           </div>
+       </div>
+   </div>          
+   <div class="row g-2 mt-3 align-items-center">
+       <div class="col-md-8 col-sm-12">
+           <div class="input-group">
+               <div class="form-floating">
+                   <InputText type="text" class="form-control" placeholder="" id="txtSearchCareer" @bind-Value="viewModel.NameCareerSearch"/> 
+                   <label for="txtSearchCareer" class="form-label">Nombre de la carrera</label>
+               </div>
+               <button class="btn btn-primary border" type="button" data-bs-toggle="collapse" data-bs-target="#searchFilters" @onclick="ToggleCollapse">
+                    <span class="fw-bold">Busqueda avanzada <i class="@classFiltersButton"></i></span>
+               </button>
+               <button class="btn btn-primary">
+                   <i class="fa-solid fa-search mx-2"></i>
+               </button>
+           </div>                    
+       </div>
+       <div class="col-md-4 col-sm-12 d-flex flex-column justify-content-end">
+            <a class="btn btn-primary fs-5 align-self-end" href="/addCollegeCareerForm">
+               <i class="fa-solid fa-folder-plus me-2"></i>
+               <span>Agregar carrera</span>
+            </a>
+       </div>
+   </div>
+   <div class="row collapse p-2 mt-4 align-items-center" id="searchFilters">
+       <div class="col-md-4 col-sm-12">
+           <label for="selectTypeCareers">Tipo de carrera:</label>
+           <InputSelect id="selectTypeCareers" class="form-select" @bind-Value="viewModel.IdTypeSelected">
+               <option value="0">...</option>
+               @foreach (var item in viewModel.ListTypesCareer)
+                {
+                    <option value="@item.Id">@item.Description</option>
+                }
+           </InputSelect>
+       </div>
+       <div class="col-md-4 col-sm-12">
+           <label for="selectTypeCareers">Duración de la carrera</label>
+           <InputText id="selectTypeCareers" class="form-control" @bind-Value="viewModel.DurationCareer"/>
+       </div>
+       <div class="col-md-4 col-sm-12">
+            <span>Cant. estudiantes:</span>
+            <div class="d-flex flex-lg-row flex-column gap-3 w-100">
+                <div class="btn-group">
+                    <input type="radio" class="btn-check" name="orderFilter" id="decreciente">
+                    <label for="decreciente" class="btn btn-outline-primary">
+                        <i class="fa-solid fa-arrow-down-wide-short"></i> Decreciente
+                    </label>
+                    <input type="radio" class="btn-check" name="orderFilter" id="creciente">
+                    <label for="creciente" class="btn btn-outline-primary">
+                        <i class="fa-solid fa-arrow-down-short-wide"></i> Creciente
+                    </label>
+                </div>
+            </div>
+       </div>
+   </div>
+</section>
+<hr>
+<section class="container rounded shadow-lg border p-4 bg-white mb-3">
+    @foreach (var item in viewModel.ListCollegeCareers)
+    {
+        <CardCollegeCareers TitleCareer="@item.Name" 
+        Description="@item.Description" 
+        DurationCareer="3 años" 
+        TypeCareer="Tecnicatura"
+        StudentsCount="18"/>
+    }
+</section>
+<style>
+    .btn-primary:hover{
+        background-color: white;
+        color: #1D4ED8;
+    }
+    .card {
+        background-color: white;
+    }
+
+    .card-header {
+        background-color: #1D4ED8;
+        color: white;
+    }
+
+    .card-footer {
+        color: black;
+    }
+
+    .btn-light:hover {
+        background-color: #1D4ED8;
+        border-color: white;
+        color: white;
+    }
+
+    .btn-danger:hover {
+        background-color: white;
+        color: red;
+    }
+</style>
+
+@code{
+    private bool IsCollapse = true;
+    private string classFiltersButton = "fa-solid fa-angle-down";
+
+    protected override async Task OnInitializedAsync()
+    {
+        await viewModel.DisplayListCollegeCareers();
+        await viewModel.DisplayListTypesCareer();
+    }
+
+    private void ToggleCollapse()
+    {
+        IsCollapse = !IsCollapse;
+
+        if (IsCollapse)
+        {
+            classFiltersButton = "fa-solid fa-angle-down";
+        }
+        else
+        {
+            classFiltersButton = "fa-solid fa-angle-up";
+        }
+    }
+}

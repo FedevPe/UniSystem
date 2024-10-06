@@ -1,0 +1,42 @@
+﻿<div class="card mb-2">
+    <div class="card-header fw-bold">
+        <div class="d-flex justify-content-between align-items-center">
+            <span>@TitleCareer</span>
+            <div>
+                <button class="btn btn-light">
+                    <i class="fa-solid fa-pen"></i>
+                </button>
+                <button class="btn btn-danger">
+                    <i class="fa-solid fa-trash-can"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="card-text">
+            <span>@Description</span>
+        </div>
+    </div>
+    <div class="card-footer">
+        <div class="d-flex flex-lg-row flex-column justify-content-between">
+            <span><strong>Estudiantes inscriptos:</strong> @StudentsCount</span>
+            <span><strong>Duración de la carrera:</strong> @DurationCareer</span>
+            <span><strong>Tipo de carrera:</strong> @TypeCareer</span>
+        </div>
+    </div>
+</div>
+
+
+@code{
+    [Parameter]
+    public string TitleCareer { get; set; }
+    [Parameter]
+    public string Description { get; set; }
+    [Parameter]
+    public string StudentsCount { get; set; }
+    [Parameter]
+    public string DurationCareer { get; set; }
+    [Parameter]
+    public string TypeCareer { get; set; }
+
+}

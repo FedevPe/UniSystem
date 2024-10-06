@@ -1,0 +1,23 @@
+.card[b-oywnfs0wjb] {
+    background-color: white;
+}
+
+.card-header[b-oywnfs0wjb] {
+    background-color: #1D4ED8;
+    color: white;
+}
+
+.card-footer[b-oywnfs0wjb] {
+    color: black;
+}
+
+.btn-light:hover[b-oywnfs0wjb] {
+    background-color: #1D4ED8;
+    border-color: white;
+    color: white;
+}
+
+.btn-danger:hover[b-oywnfs0wjb] {
+    background-color: white;
+    color: red;
+}
