@@ -6,16 +6,25 @@
 <EditForm Model="@CollegeCareer" OnValidSubmit="SaveCollegeCareers">
     <section class="container-fluid mt-4 bg-white rounded shadow">
         <div class="row p-4">
-            <div class="col-lg-5 mx-auto">
-                <form class="form-floating mb-2">
+            <div class="col-lg-8 mx-auto">
+                <div class="form-floating mb-2">
                     <InputText @bind-Value="CollegeCareer.Name" class="form-control" type="text" id="nameCollegeCareer" placeholder=""/>
                     <label class="form-label" for="nameCollegeCareer">Nombre de carrera</label>
-                </form>
-                <form class="form-floating mb-2">
-                    <InputNumber @bind-Value="CollegeCareer.Duration" class="form-control" type="number" placeholder="" id="durationCollegeCareer"/>
-                    <label class="form-label" for="durationCollegeCareer">Duración de la carrera</label>
-                </form>
-                <form class="form-floating mb-2">
+                </div>
+                <div class="input-group mb-2">
+                    <div class="form-floating">
+                        <InputNumber @bind-Value="DurationNumber" class="form-control" type="number" placeholder="" id="durationCollegeCareer"/>
+                        <label class="form-label" for="durationCollegeCareer">Duración de la carrera</label>
+                    </div>
+                    <InputSelect class="form-select" @bind-Value="DurationString">
+                        <option>...</option>
+                        <option value="días">días</option>
+                        <option value="semanas">semanas</option>
+                        <option value="meses">meses</option>
+                        <option value="años">años</option>
+                    </InputSelect>
+                </div>
+                <div class="form-floating mb-2">
                     <InputSelect @bind-Value="CollegeCareer.TypeId" class="form-select" name="" id="typeCollegeCareer" placeholder="Tipo Carrera">
                         @foreach (var item in CollegeCareer.TypesCareers)
                         {
@@ -23,7 +32,16 @@
                         }
                     </InputSelect>
                     <label class="form-label" for="typeCollegeCareer">Tipo de carrera:</label>
-                </form>
+                </div>
+                <div class="form-floating mb-2">
+                    <InputSelect @bind-Value="CollegeCareer.Mode" class="form-select" name="" id="mode" placeholder="Modalidad">
+                        <option>...</option>
+                        <option value="Presencial">Presencial</option>
+                        <option value="Semipresencial">Semipresencial</option>
+                        <option value="A distancia">A distancia</option>
+                    </InputSelect>
+                    <label class="form-label" for="typeCollegeCareer">Modalidad</label>
+                </div>
                 <div class="mt-4">
                     <div class="col-lg-12 mx-auto mb-2">
                         <span>Descripción: </span>
@@ -32,7 +50,7 @@
                 </div>
                 <div class="d-flex justify-content-end align-items-end">
                     <button class="btn btn-success btn-lg me-2" type="submit">Guardar</button>
-                    <NavLink class="navLink" href="/">
+                    <NavLink class="navLink" href="/collegeCareers">
                         <button class="btn btn-danger btn-lg">Cancelar</button>
                     </NavLink>
                 </div>
@@ -54,12 +72,16 @@
     private string colorIconNotification;
     private string messageNotification;
 
+    public int DurationNumber { get; set; }
+    public string DurationString { get; set; }
+
     protected override async Task OnInitializedAsync()
     {
         await CollegeCareer.DisplayTypeCareers();
     }
     private async Task SaveCollegeCareers()
     {
+        CollegeCareer.Duration = $"{DurationNumber.ToString()} {DurationString}";
         await CollegeCareer.SaveCollegeCareer();
 
         await Notification(CollegeCareer.IsSave);

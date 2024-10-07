@@ -18,5 +18,11 @@ namespace UniversitarySystemControllers.Implementations
             await interactor.GetAllTypeCareers();
             return presenter.ListTypeCareers;
         }
+        [HttpGet]
+        public async Task<TypeCareersDTO> GetTypeCareersById(int id)
+        {
+            await interactor.GetTypeCareersById(id);
+            return presenter.TypeCareer;
+        }
     }
 }

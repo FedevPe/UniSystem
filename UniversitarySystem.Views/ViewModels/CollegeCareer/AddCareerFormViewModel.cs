@@ -1,7 +1,7 @@
 ﻿using UniversitarySystem.Entities.DTOs;
 using UniversitarySystem.UsesCases.BusinessObject.Controllers;
 
-namespace UniversitarySystem.Views.ViewModels.AddCollegeCareer
+namespace UniversitarySystem.Views.ViewModels.CollegeCareer
 {
     public class AddCareerFormViewModel(
         ICollegeCareerController controller,
@@ -10,8 +10,10 @@ namespace UniversitarySystem.Views.ViewModels.AddCollegeCareer
         public int Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
-        public int Duration { get; set; }
+        public string Duration { get; set; }
         public int TypeId { get; set; }
+        public string Mode { get; set; }
+        public bool Status { get; set; } = true;
 
         public bool IsSave { get; set; }
 
@@ -34,7 +36,9 @@ namespace UniversitarySystem.Views.ViewModels.AddCollegeCareer
                     viewModel.Name,
                     viewModel.Description,
                     viewModel.Duration,
-                    viewModel.TypeId
+                    viewModel.TypeId,
+                    viewModel.Mode,
+                    viewModel.Status
                 );
         }
     }

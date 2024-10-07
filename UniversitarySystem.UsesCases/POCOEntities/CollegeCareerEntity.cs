@@ -4,8 +4,10 @@
     {
         public int IdCollegeCareer { get; set; }
         public string CollegeCareer { get; set; }
-        public int Duration { get; set; }
+        public string Duration { get; set; }
         public string Description { get; set; }
+        public string Mode { get; set; }
+        public bool Status { get; set; }
 
 
         public int TypeCareersId { get; set; }

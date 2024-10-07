@@ -9,7 +9,12 @@ namespace UniversitarySystem.UsesCases.Interactors
     {
         public async Task GetAllTypeCareers()
         {
-            await presenter.Handle(await repository.GetListTypeCareers());
+            await presenter.HandleList(await repository.GetListTypeCareers());
+        }
+
+        public async Task GetTypeCareersById(int id)
+        {
+            await presenter.Handle(await repository.GetTypeById(id));
         }
     }
 }

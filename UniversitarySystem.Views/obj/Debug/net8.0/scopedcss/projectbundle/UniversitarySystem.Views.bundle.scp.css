@@ -22,3 +22,36 @@
     background-color: white;
     color: red;
 }
+/* _content/UniversitarySystem.Views/Pages/CollegeCareers.razor.rz.scp.css */
+.btn-primary[b-1up9btga8o] {
+    border: solid 1px #1D4ED8;
+}
+
+.btn-primary:hover[b-1up9btga8o] {
+    background-color: white;
+    color: #1D4ED8;
+}
+
+.card[b-1up9btga8o] {
+    background-color: white;
+}
+
+.card-header[b-1up9btga8o] {
+    background-color: #1D4ED8;
+    color: white;
+}
+
+.card-footer[b-1up9btga8o] {
+    color: black;
+}
+
+.btn-light:hover[b-1up9btga8o] {
+    background-color: #1D4ED8;
+    border-color: white;
+    color: white;
+}
+
+.btn-danger:hover[b-1up9btga8o] {
+    background-color: white;
+    color: red;
+}

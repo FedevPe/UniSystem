@@ -5,28 +5,21 @@
     </div>
     <div class="row p-4">
         <ul class="nav flex-column">
-            <NavLink class="nav-item navLink">
-                <a class="nav-link text-white hover-blue-700 d-flex align-items-center p-2 rounded" href="/">
-                    <i class="fa-solid fa-house me-2 fs-4"></i>
-                    <span class="fs-4">Inicio</span>
-                </a>
-            </NavLink>
-        </ul>
-        <ul class="nav flex-column">
-            <NavLink class="nav-item navLink">
-                <a class="nav-link text-white hover-blue-700 d-flex align-items-center p-2 rounded" href="/addStudentForm">
-                    <i class="fa-solid fa-user-graduate me-2 fs-4"></i>
-                    <span class="fs-4">Estudiantes</span>
-                </a>
-            </NavLink>
-        </ul>
-        <ul class="nav flex-column">
-            <NavLink class="nav-item navLink">
-                <a class="nav-link text-white hover-blue-700 d-flex align-items-center p-2 rounded" href="/collegeCareers">
-                    <i class="fa-solid fa-book-open me-2 fs-4"></i>
-                    <span class="fs-4"> Carreras</span>
-                </a>
-            </NavLink>
+            <li>
+                <NavBarItem Text="Inicio" 
+                    ClassIcon="fa-solid fa-house" 
+                    PageRef="/"/>
+            </li>
+            <li>
+                <NavBarItem Text="Estudiantes" 
+                    ClassIcon="fa-solid fa-user-graduate" 
+                    PageRef="/addStudentForm"/>
+            </li>
+            <li>
+                <NavBarItem Text="Carreras" 
+                    ClassIcon="fa-solid fa-book-open" 
+                    PageRef="/collegeCareers"/>
+            </li>
         </ul>
     </div>
 </div>

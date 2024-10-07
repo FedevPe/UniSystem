@@ -14,11 +14,9 @@ namespace UniversitarySystemPresenters.Implementations
         public Task HandleList(IEnumerable<CollegeCareerEntity> list)
         {
             ListCareers = list.Select(x => new CollegeCareerDTO(
-                                            x.IdCollegeCareer,
-                                            x.CollegeCareer,
-                                            x.Description,
-                                            x.Duration,
-                                            x.TypeCareersId)).ToList();
+              x.IdCollegeCareer, x.CollegeCareer, x.Description,
+              x.Duration, x.TypeCareersId, x.Mode, x.Status)).ToList();
+
             return Task.CompletedTask;
         }
         public Task Handle(CollegeCareerEntity entity)

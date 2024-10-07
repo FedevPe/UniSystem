@@ -65,3 +65,4 @@ C:\Users\Usuario\Desktop\Instituto\2°Año\Programacion II\Repositorios\UniSyste
 C:\Users\Usuario\Desktop\Instituto\2°Año\Programacion II\Repositorios\UniSystem\UniversitarySystem.Views\obj\Debug\net8.0\ref\UniversitarySystem.Views.dll
 C:\Users\Usuario\Desktop\Instituto\2°Año\Programacion II\Repositorios\UniSystem\UniversitarySystem.Views\obj\Debug\net8.0\scopedcss\Components\SecCareers\CardCollegeCareers.razor.rz.scp.css
 C:\Users\Usuario\Desktop\Instituto\2°Año\Programacion II\Repositorios\UniSystem\UniversitarySystem.Views\obj\Debug\net8.0\scopedcss\projectbundle\UniversitarySystem.Views.bundle.scp.css
+C:\Users\Usuario\Desktop\Instituto\2°Año\Programacion II\Repositorios\UniSystem\UniversitarySystem.Views\obj\Debug\net8.0\scopedcss\Pages\CollegeCareers.razor.rz.scp.css

@@ -6,6 +6,9 @@ namespace UniversitarySystem.UsesCases.BusinessObject.Interfaces.TypeCareers
     public interface ITypeCareersOutputPort
     {
         public IEnumerable<TypeCareersDTO> ListTypeCareers { get; }
-        Task Handle(IEnumerable<TypeCareersEntity> list);
+        public TypeCareersDTO TypeCareer { get; }
+
+        Task HandleList(IEnumerable<TypeCareersEntity> list);
+        Task Handle(TypeCareersEntity entity);
     }
 }

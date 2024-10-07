@@ -2,10 +2,10 @@
 using UniversitarySystem.Entities.DTOs;
 using UniversitarySystem.UsesCases.BusinessObject.Controllers;
 
-namespace UniversitarySystem.Views.ViewModels.AddStudent
+namespace UniversitarySystem.Views.ViewModels.Student.AddStudent
 {
     //Deberia recibir los controladores que sean necesario (Provincias, ciudades)
-    public class AddressInformationViewModel 
+    public class AddressInformationViewModel
         (ICityController cityController,
         IProvinceController provinceController)
     {
@@ -31,15 +31,15 @@ namespace UniversitarySystem.Views.ViewModels.AddStudent
 
         public static explicit operator AddressDTO(AddressInformationViewModel addressViewModel)
         {
-             return new AddressDTO(
-                addressViewModel.Id,
-                addressViewModel.StudentId,
-                addressViewModel.Address,
-                addressViewModel.ZipCode,
-                addressViewModel.CityId,
-                addressViewModel.ProvinceId
-             );
-            
+            return new AddressDTO(
+               addressViewModel.Id,
+               addressViewModel.StudentId,
+               addressViewModel.Address,
+               addressViewModel.ZipCode,
+               addressViewModel.CityId,
+               addressViewModel.ProvinceId
+            );
+
         }
     }
 }

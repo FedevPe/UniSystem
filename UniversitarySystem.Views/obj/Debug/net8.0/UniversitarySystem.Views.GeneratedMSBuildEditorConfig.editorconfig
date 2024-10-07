@@ -38,6 +38,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBZGRTdHVkZW50Rm9ybVxUaXRsZUluZm9ybWF0aW9uQ29tcC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Usuario/Desktop/Instituto/2°Año/Programacion II/Repositorios/UniSystem/UniversitarySystem.Views/Components/Common/NavBarItem.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb21tb25cTmF2QmFySXRlbS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Usuario/Desktop/Instituto/2°Año/Programacion II/Repositorios/UniSystem/UniversitarySystem.Views/Components/Common/NotificationComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb21tb25cTm90aWZpY2F0aW9uQ29tcG9uZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -66,10 +70,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkU3R1ZGVudEZvcm0ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/Instituto/2°Año/Programacion II/Repositorios/UniSystem/UniversitarySystem.Views/Pages/CollegeCareers.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29sbGVnZUNhcmVlcnMucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Usuario/Desktop/Instituto/2°Año/Programacion II/Repositorios/UniSystem/UniversitarySystem.Views/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -81,3 +81,7 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/Usuario/Desktop/Instituto/2°Año/Programacion II/Repositorios/UniSystem/UniversitarySystem.Views/Components/SecCareers/CardCollegeCareers.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTZWNDYXJlZXJzXENhcmRDb2xsZWdlQ2FyZWVycy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-oywnfs0wjb
+
+[C:/Users/Usuario/Desktop/Instituto/2°Año/Programacion II/Repositorios/UniSystem/UniversitarySystem.Views/Pages/CollegeCareers.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29sbGVnZUNhcmVlcnMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-1up9btga8o

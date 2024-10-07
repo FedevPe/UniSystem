@@ -22,6 +22,7 @@
             <span><strong>Estudiantes inscriptos:</strong> @StudentsCount</span>
             <span><strong>Duración de la carrera:</strong> @DurationCareer</span>
             <span><strong>Tipo de carrera:</strong> @TypeCareer</span>
+            <span><strong>Modalidad:</strong> @Mode</span>
         </div>
     </div>
 </div>
@@ -38,5 +39,7 @@
     public string DurationCareer { get; set; }
     [Parameter]
     public string TypeCareer { get; set; }
+    [Parameter]
+    public string Mode { get; set; }
 
 }

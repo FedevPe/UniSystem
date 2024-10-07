@@ -1,5 +1,5 @@
-﻿using UniversitarySystem.Views.ViewModels.AddCollegeCareer;
-using UniversitarySystem.Views.ViewModels.AddStudent;
+﻿using UniversitarySystem.Views.ViewModels.CollegeCareer;
+using UniversitarySystem.Views.ViewModels.Student.AddStudent;
 
 namespace Microsoft.Extensions.DependencyInjection
 {

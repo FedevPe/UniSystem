@@ -1,12 +1,16 @@
 ﻿using UniversitarySystem.Entities.DTOs;
 using UniversitarySystem.UsesCases.BusinessObject.Controllers;
 
-namespace UniversitarySystem.Views.ViewModels.AddCollegeCareer
+namespace UniversitarySystem.Views.ViewModels.CollegeCareer
 {
-    public class CollegeCareerViewModel 
+    public class CollegeCareerViewModel
         (ICollegeCareerController careerController,
         ITypeCareersController typeController)
     {
+        //
+        public TypeCareersDTO TypeCareers { get; set; }
+
+        //Propiedades para filtrar la busqueda de carreras
         public string NameCareerSearch { get; set; } = "";
         public string DurationCareer { get; set; }
         public int IdTypeSelected { get; set; }
@@ -22,6 +26,10 @@ namespace UniversitarySystem.Views.ViewModels.AddCollegeCareer
         public async Task DisplayListTypesCareer()
         {
             ListTypesCareer = await typeController.GetListTypeCareers();
+        }
+        public async Task GetTypeCareerById(int id)
+        {
+            TypeCareers = await typeController.GetTypeCareersById(id);
         }
     }
 }

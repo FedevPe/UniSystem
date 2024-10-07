@@ -15,5 +15,10 @@ namespace UniversitarySystem.EFCore.Services.TypeCareers
         {
             return await TypeCareers.ToListAsync();
         }
+
+        public async Task<TypeCareersEntity> GetTypeById(int id)
+        {
+            return await TypeCareers.FindAsync(id);
+        }
     }
 }

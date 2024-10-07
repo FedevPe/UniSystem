@@ -1,6 +1,6 @@
 ﻿using UniversitarySystem.Entities.DTOs;
 
-namespace UniversitarySystem.Views.ViewModels.AddStudent
+namespace UniversitarySystem.Views.ViewModels.Student.AddStudent
 {
     //Deberia recibir los controladores que sean necesario ( )
     public class TitleInformationViewModel

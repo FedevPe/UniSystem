@@ -1,7 +1,7 @@
 ﻿using UniversitarySystem.Entities.DTOs;
 using UniversitarySystem.UsesCases.BusinessObject.Controllers;
 
-namespace UniversitarySystem.Views.ViewModels.AddStudent
+namespace UniversitarySystem.Views.ViewModels.Student.AddStudent
 {
     public class PersonalInformationViewModel(ICollegeCareerController careerController)
     {

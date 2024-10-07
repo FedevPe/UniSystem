@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UniversitarySystemControllers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f8b5e9debbf3edaffcc12d1a1d234ecaf8d456a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1fe4e5c64504e82afac966d7a937772a24888401")]
 [assembly: System.Reflection.AssemblyProductAttribute("UniversitarySystemControllers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UniversitarySystemControllers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

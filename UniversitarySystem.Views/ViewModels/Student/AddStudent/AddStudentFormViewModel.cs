@@ -1,13 +1,13 @@
 ﻿using UniversitarySystem.Entities.DTOs;
 using UniversitarySystem.UsesCases.BusinessObject.Controllers;
 
-namespace UniversitarySystem.Views.ViewModels.AddStudent
+namespace UniversitarySystem.Views.ViewModels.Student.AddStudent
 {
     //Deberia utilizar los controladores que sean necesario
     public class AddStudentFormViewModel(IStudentController controller)
     {
         public PersonalInformationViewModel PersonalInformation { get; set; }
-        public AddressInformationViewModel AddressInformation { get; set; } 
+        public AddressInformationViewModel AddressInformation { get; set; }
         public TitleInformationViewModel TitleInformation { get; set; }
 
         public async Task Send()

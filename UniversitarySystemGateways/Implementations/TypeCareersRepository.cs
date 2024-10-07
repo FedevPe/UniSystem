@@ -11,5 +11,10 @@ namespace UniversitarySystemGateways.Implementations
         {
             return await services.GetListTypeCareers();
         }
+
+        public async Task<TypeCareersEntity> GetTypeById(int id)
+        {
+            return await services.GetTypeById(id);
+        }
     }
 }

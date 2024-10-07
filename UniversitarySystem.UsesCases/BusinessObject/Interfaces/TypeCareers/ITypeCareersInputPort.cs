@@ -3,5 +3,6 @@
     public interface ITypeCareersInputPort
     {
         Task GetAllTypeCareers();
+        Task GetTypeCareersById(int id);
     }
 }
