@@ -1,9 +1,8 @@
-﻿using UniversitarySystem.Entities.Interfaces;
-using UniversitarySystem.UsesCases.Aggregates;
+﻿using UniversitarySystem.UsesCases.Aggregates;
 
 namespace UniversitarySystem.UsesCases.BusinessObject.Repository
 {
-    public interface IStudentRepository : IUnitOfWork
+    public interface IStudentRepository
     {
         Task AddStudent(CreateStudentAggregate studentRegistry);
     }

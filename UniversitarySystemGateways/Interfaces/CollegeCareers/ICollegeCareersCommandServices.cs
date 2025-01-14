@@ -7,9 +7,5 @@ namespace UniversitarySystemGateways.Interfaces.CollegeCareers
         Task AddCollegeCareerAsync(CollegeCareerEntity collegeCareers);
         Task RemoveCollegeCareerAsync(int id);
         Task UpdateCollegeCareerAsyn(CollegeCareerEntity collegeCareers);
-
-
-        //Tarea para delegar la responsabilidad al servicio
-        Task SaveCollegeCareer();
     }
 }

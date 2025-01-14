@@ -20,6 +20,7 @@ namespace UniversitarySystem.EFCore.Configurations.PrincipalTables
             builder.Property(a => a.Email).HasMaxLength(100).IsRequired(false);
             builder.Property(a => a.DateRegistry).IsRequired();
             builder.Property(a => a.State).IsRequired().HasDefaultValue(true);
+            builder.Property(a => a.PendingMatters).IsRequired().HasDefaultValue(false);
         }
     }
 }

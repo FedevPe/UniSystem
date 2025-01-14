@@ -1,15 +1,17 @@
-﻿using UniversitarySystem.UsesCases.Aggregates;
+﻿using System.Reflection.Metadata.Ecma335;
+using UniversitarySystem.UsesCases.Aggregates;
 using UniversitarySystem.UsesCases.BusinessObject.Interfaces.Student;
 
 namespace UniversitarySystemPresenters.Implementations
 {
     public class StudentPresenter : IStudentOutputPort
     {
-        public int IdStudent {  get; private set; }
-
+        public bool IsSaved { get; private set; } = false;
         public Task Handle(CreateStudentAggregate student)
         {
-            IdStudent = student.IdStudent;
+            if (student.IdStudent != 0)
+                IsSaved = true;
+
             return Task.CompletedTask;
         }
     }

@@ -1,0 +1,32 @@
+﻿.card.collegeCareer {
+    background-color: white;
+}
+.card-header.collegeCareer {
+    background-color: #223E5B;
+    color: white;
+}
+.card-footer.collegeCareer {
+    color: black;
+}
+.btn-primary.collegeCareer {
+    background-color: #223E5B;
+    border-color: #223E5B;
+}
+.btn-primary.collegeCareer:hover {
+    background-color: white;
+    color: #223E5B;
+    border-color: #DDE2E4;
+}
+.btn-light.collegeCareer:hover {
+    background-color: #223E5B;
+    border-color: white;
+    color: white;
+}
+.btn-danger.collegeCareer:hover {
+    background-color: white;
+    color: red;
+}
+.btn-outline-primary.collegeCareer {
+    border-color: #223E5B;
+    color: #223E5B;
+}

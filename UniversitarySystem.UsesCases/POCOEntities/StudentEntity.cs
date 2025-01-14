@@ -14,6 +14,7 @@ namespace UniversitarySystem.UsesCases.POCOEntities
         public string Email { get; set; }
         public DateOnly DateRegistry { get; set; }
         public bool State { get; set; }
+        public bool PendingMatters { get; set; }
 
 
         #region Propiedades para determinar relaciones entre tablas

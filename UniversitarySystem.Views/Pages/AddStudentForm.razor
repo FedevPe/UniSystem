@@ -3,41 +3,50 @@
 
 <SupTitleBarComponent ClassIconBar="@barIconClass" TitleBarSup="@supTitleBar"/>
 
-<EditForm Model="@StudentModel" OnInvalidSubmit="SaveStudent">
-    <PersonalInformationComp/>
+<section class="mtop">
+    <EditForm Model="@StudentModel" OnInvalidSubmit="SaveStudent">
+        <PersonalInformationComp />
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 mt-3">
+                    <AddressInformationComp />
+                </div>
+                <div class="col-md-6 col-sm-12 mt-3">
+                    <TitleInformationComp />
+                </div>
+            </div>
+        </div>
+    </EditForm>
+
     <div class="container-fluid">
-        <div class="row">
-            <div class="col mt-3">
-                <AddressInformationComp/>
-            </div>
-            <div class="col mt-3">
-                <TitleInformationComp/>
+        <PsychophysicalInformationComp />
+    </div>
+
+    <div class="container-fluid">
+        <div class="row ">
+            <div class="col">
+                <NavLink class="mt-3 d-flex justify-content-end mb-2 navLink">
+                    <button class="btn btn-success btn-lg me-2" type="submit" form="editForm">Guardar</button>
+                    <button class="btn btn-danger btn-lg" type="button" id="btnCancel">Cancelar</button>
+                </NavLink>
             </div>
         </div>
     </div>
-</EditForm>
 
-<div class="container-fluid">
-    <PsychophysicalInformationComp/>
-</div>
+    <NotificationComponent @ref="notificationComponent"/>
 
-<div class="container-fluid">
-    <div class="row ">
-        <div class="col">
-            <NavLink class="mt-3 d-flex justify-content-end mb-2 navLink">
-                <button class="btn btn-success btn-lg me-2" type="submit" form="editForm">Guardar</button>
-                <button class="btn btn-danger btn-lg" type="button" id="btnCancel">Cancelar</button>
-            </NavLink>
-        </div>
-    </div>
-</div>
+</section>
+
 
 @code {
+    private NotificationComponent notificationComponent;
+
     private string supTitleBar = "Nuevo estudiante";
     private string barIconClass = "fa-solid fa-user-plus";
 
     private async Task SaveStudent()
     {
         await StudentModel.Send();
+        await notificationComponent.DisplayNotification(StudentModel.IsSaved);
     }
 }

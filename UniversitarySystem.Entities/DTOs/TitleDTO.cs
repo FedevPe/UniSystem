@@ -2,10 +2,12 @@
 {
     public class TitleDTO
     {
-        public TitleDTO(int id, int idStudent, string highSchool, string secondaryDegree, DateOnly egressDate)
+        public TitleDTO(int id, int studentId, 
+            string highSchool, string secondaryDegree,
+            DateOnly egressDate)
         {
             Id = id;
-            StudentId = idStudent;
+            StudentId = studentId;
             HighSchool = highSchool;
             SecondaryDegree = secondaryDegree;
             EgressDate = egressDate;

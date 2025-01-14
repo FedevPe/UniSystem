@@ -1,0 +1,61 @@
+﻿<div class="row">
+    <div class="col-12">
+        <div class="text-start fw-bold fs-3">
+            <span>@TextSearchBar</span>
+        </div>
+    </div>
+</div>
+<div class="row g-2 mt-3 align-items-center">
+    <div class="col-md-8 col-sm-12">
+        <div class="input-group">
+            <div class="form-floating">
+                <InputText type="text" class="form-control" placeholder="" id="txtSearchCareer" @bind-Value="@TextInputSearch"/>
+                <label for="txtSearchCareer" class="form-label">@TextLabelInput</label>
+            </div>
+            <button class="btn btn-primary collegeCareer" type="button" data-bs-toggle="collapse" data-bs-target="#searchFilters" @onclick="ToggleCollapse">
+                <span class="fw-bold">Busqueda avanzada <i class="@classFiltersButton"></i></span>
+            </button>
+            <button class="btn btn-primary collegeCareer">
+                <i class="fa-solid fa-search mx-2"></i>
+            </button>
+        </div>
+    </div>
+    <div class="col-md-4 col-sm-12 d-flex flex-column justify-content-end">
+        <a class="btn btn-primary collegeCareer fs-5 align-self-end" href="@RefPage">
+            <i class="@ClassIconButtonAdd me-2"></i>
+            <span>@TextButtonAdd</span>
+        </a>
+    </div>
+</div>
+
+@code {
+    private bool IsCollapse = true;
+    private string classFiltersButton = "fa-solid fa-angle-down";
+
+    [Parameter]
+    public string TextSearchBar { get; set; }
+    [Parameter]
+    public string TextLabelInput { get; set; }
+    [Parameter]
+    public string TextInputSearch { get; set; }
+    [Parameter]
+    public string ClassIconButtonAdd { get; set; }
+    [Parameter]
+    public string TextButtonAdd { get; set; }
+    [Parameter]
+    public string RefPage { get; set; }
+
+    private void ToggleCollapse()
+    {
+        IsCollapse = !IsCollapse;
+
+        if (IsCollapse)
+        {
+            classFiltersButton = "fa-solid fa-angle-down";
+        }
+        else
+        {
+            classFiltersButton = "fa-solid fa-angle-up";
+        }
+    }
+}

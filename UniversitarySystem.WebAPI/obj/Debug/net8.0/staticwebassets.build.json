@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2NS+4fLB8ovwUKf+smDyJrXqNDpUbFrWLb+HbLdgRpk=",
+  "Hash": "9HuBuA27n2L3MZFrbCGDddvuV4ixyAnXGkcW7PK1cu8=",
   "Source": "UniversitarySystem.WebAPI",
   "BasePath": "_content/UniversitarySystem.WebAPI",
   "Mode": "Default",
@@ -46,6 +46,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.Views\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\UniversitarySystem.Views.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.Views\\wwwroot\\css\\NotificationComponent.css",
+      "SourceId": "UniversitarySystem.Views",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.Views\\wwwroot\\",
+      "BasePath": "_content/UniversitarySystem.Views",
+      "RelativePath": "css/NotificationComponent.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\NotificationComponent.css"
     },
     {
       "Identity": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.WebAPI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\UniversitarySystem.WebAPI.styles.css",

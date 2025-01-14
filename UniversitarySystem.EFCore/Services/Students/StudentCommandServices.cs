@@ -9,27 +9,12 @@ namespace UniversitarySystem.EFCore.Services.Students
     public class StudentCommandServices(IOptions<DBOption> options) :
         UniversitarySystemContext(options), IStudentCommandServices
     {
-        public async Task AddAddressStudentAsync(AddressEntity address)
-        {
-            await AddAsync(address);
-
-            await SaveChangesAsync();
-        }
-
         public async Task AddStudentAsync(StudentEntity student)
         {
             await AddAsync(student);
 
             await SaveChangesAsync();
         }
-
-        public async Task AddTitleStudentAsync(TitleEntity title)
-        {
-            await AddAsync(title);
-
-            await SaveChangesAsync();
-        }
-
         public async Task RemoveStudent(int studentId)
         {
             //Para eliminar una entidad primero necesito encontrarla en el contexto
@@ -40,11 +25,6 @@ namespace UniversitarySystem.EFCore.Services.Students
 
             Students.Update(student);
 
-            await SaveChangesAsync();
-        }
-
-        public async Task SaveStudent()
-        {
             await SaveChangesAsync();
         }
     }

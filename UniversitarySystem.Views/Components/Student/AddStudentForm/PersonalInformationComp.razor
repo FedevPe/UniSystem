@@ -2,7 +2,7 @@
 
 <EditForm Model="@PersonalInformation">
     <div class="container-fluid">
-        <nav class="shadow p-3 mt-3 bg-white rounded-3">
+        <article class="shadow p-3 mt-3 bg-white rounded-3">
             <div class="border-bottom h3 border-secondary col-lg-11 mx-auto d-flex">
                 <span>Datos Personales</span>
             </div>
@@ -42,17 +42,17 @@
                     <label class="form-label ms-2" for="Email">Email</label>
                     <div class="form-floating mt-4">
                         <InputSelect @bind-Value="PersonalInformation.IdCollegeCareer" class="form-select mt-3" id="SelectedCollegeCareer" placeholder="">
-                            <option value="0">...</option>
+                            <option value="0"> </option>
                             @foreach (var item in PersonalInformation.CollegeCareer)
                             {
                                 <option value="@item.Id">@item.Name</option>
                             }
                         </InputSelect>
-                        <label class="form-label " for="SelectedCollegeCareer">Carrera a la que se inscribe:</label>
+                        <label class="form-label" for="SelectedCollegeCareer">Carrera a la que se inscribe:</label>
                     </div>
                 </div>
             </div>
-        </nav>
+        </article>
     </div>
 </EditForm>
 

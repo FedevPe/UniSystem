@@ -14,10 +14,12 @@ namespace UniversitarySystem.EFCore.Services.CollegeCareers
         {
             return await CollegeCareers.FindAsync(id);
         }
-
         public async Task<IEnumerable<CollegeCareerEntity>> GetCollegeCareersAsync()
         {
-            return await CollegeCareers.ToListAsync(); 
+            return await CollegeCareers.Include("TypeCareers")
+                                       .Where(x => x.Status == true)
+                                       .ToListAsync();
         }
+
     }
 }

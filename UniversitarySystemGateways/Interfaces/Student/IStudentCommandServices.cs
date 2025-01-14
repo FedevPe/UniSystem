@@ -6,6 +6,5 @@ namespace UniversitarySystemGateways.Interfaces.Student
     {
         Task AddStudentAsync(StudentEntity student);
         Task RemoveStudent(int studentId);
-        Task SaveStudent();
     }
 }

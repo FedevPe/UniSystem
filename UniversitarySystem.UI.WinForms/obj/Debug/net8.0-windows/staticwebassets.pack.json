@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\UniversitarySystem.UI.WinForms.styles.css"
     },
     {
+      "Id": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.UI.WinForms\\wwwroot\\css\\collegeCareers.css",
+      "PackagePath": "staticwebassets\\css\\collegeCareers.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Desktop\\Instituto\\2°Año\\Programacion II\\Repositorios\\UniSystem\\UniversitarySystem.UI.WinForms\\wwwroot\\css\\notificationComponent.css",
+      "PackagePath": "staticwebassets\\css\\notificationComponent.css"
+    },
+    {
       "Id": "obj\\Debug\\net8.0-windows\\staticwebassets\\msbuild.UniversitarySystem.UI.WinForms.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

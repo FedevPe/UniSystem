@@ -3,7 +3,7 @@ using UniversitarySystem.UsesCases.POCOEntities;
 
 namespace UniversitarySystem.UsesCases.BusinessObject.Repository
 {
-    public interface ICollegeCareerRepository : IUnitOfWork
+    public interface ICollegeCareerRepository
     {
         Task<IEnumerable<CollegeCareerEntity>> GetAllCollegeCareers();
         Task AddCollegeCareer(CollegeCareerEntity collegeCareer);

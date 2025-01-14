@@ -1,0 +1,35 @@
+﻿@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+.toast-header.notification {
+    background-color: white;
+}
+
+.btn-light.notification {
+    background-color: white;
+}
+
+.toast.notification {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 6px;
+    opacity: 0;
+    backdrop-filter: blur(100px);
+}
+
+.toast.show.notification {
+    opacity: 1;
+    pointer-events: auto;
+    animation: slideUp 0.5s ease-out;
+}

@@ -7,8 +7,6 @@ namespace UniversitarySystem.Views.ViewModels.CollegeCareer
         (ICollegeCareerController careerController,
         ITypeCareersController typeController)
     {
-        //
-        public TypeCareersDTO TypeCareers { get; set; }
 
         //Propiedades para filtrar la busqueda de carreras
         public string NameCareerSearch { get; set; } = "";
@@ -27,9 +25,9 @@ namespace UniversitarySystem.Views.ViewModels.CollegeCareer
         {
             ListTypesCareer = await typeController.GetListTypeCareers();
         }
-        public async Task GetTypeCareerById(int id)
-        {
-            TypeCareers = await typeController.GetTypeCareersById(id);
-        }
+        //public async Task GetTypeCareerById(int id)
+        //{
+        //    TypeCareers = await typeController.GetTypeCareersById(id);
+        //}
     }
 }

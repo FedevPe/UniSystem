@@ -9,13 +9,11 @@ namespace UniversitarySystem.UsesCases.Interactors
         IStudentOutputPort outputPort,
         IStudentRepository repository) : IStudentInputPort
     {
-        //Tarea
         public async Task Handle(StudentDTO createStudentDTO)
         {
             CreateStudentAggregate createStudent = CreateStudentAggregate.DtoToAgreggate(createStudentDTO);
 
             await repository.AddStudent(createStudent);
-            await repository.SaveChanges();
             await outputPort.Handle(createStudent);
         }
 

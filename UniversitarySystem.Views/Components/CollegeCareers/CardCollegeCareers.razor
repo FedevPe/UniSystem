@@ -1,23 +1,23 @@
-﻿<div class="card mb-2">
-    <div class="card-header fw-bold">
+﻿<div class="card collegeCareer mb-3">
+    <div class="card-header collegeCareer fw-bold">
         <div class="d-flex justify-content-between align-items-center">
             <span>@TitleCareer</span>
             <div>
-                <button class="btn btn-light">
+                <button class="btn btn-light collegeCareer">
                     <i class="fa-solid fa-pen"></i>
                 </button>
-                <button class="btn btn-danger">
+                <button class="btn btn-danger collegeCareer">
                     <i class="fa-solid fa-trash-can"></i>
                 </button>
             </div>
         </div>
     </div>
-    <div class="card-body">
+    <div class="card-body collegeCareer">
         <div class="card-text">
             <span>@Description</span>
         </div>
     </div>
-    <div class="card-footer">
+    <div class="card-footer collegeCareer">
         <div class="d-flex flex-lg-row flex-column justify-content-between">
             <span><strong>Estudiantes inscriptos:</strong> @StudentsCount</span>
             <span><strong>Duración de la carrera:</strong> @DurationCareer</span>
@@ -26,7 +26,6 @@
         </div>
     </div>
 </div>
-
 
 @code{
     [Parameter]
@@ -41,5 +40,4 @@
     public string TypeCareer { get; set; }
     [Parameter]
     public string Mode { get; set; }
-
 }

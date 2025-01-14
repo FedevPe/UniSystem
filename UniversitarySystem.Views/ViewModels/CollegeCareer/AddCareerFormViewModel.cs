@@ -12,6 +12,7 @@ namespace UniversitarySystem.Views.ViewModels.CollegeCareer
         public string Description { get; set; }
         public string Duration { get; set; }
         public int TypeId { get; set; }
+        public string TypeDescription { get; set; }
         public string Mode { get; set; }
         public bool Status { get; set; } = true;
 
@@ -38,7 +39,8 @@ namespace UniversitarySystem.Views.ViewModels.CollegeCareer
                     viewModel.Duration,
                     viewModel.TypeId,
                     viewModel.Mode,
-                    viewModel.Status
+                    viewModel.Status,
+                    new TypeCareersDTO(viewModel.TypeId, viewModel.TypeDescription)
                 );
         }
     }

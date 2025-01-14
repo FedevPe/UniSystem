@@ -10,9 +10,12 @@ namespace UniversitarySystem.Views.ViewModels.Student.AddStudent
         public AddressInformationViewModel AddressInformation { get; set; }
         public TitleInformationViewModel TitleInformation { get; set; }
 
+        public bool Status { get; set; }
+        public bool IsSaved { get; set; }
+
         public async Task Send()
         {
-            var result = await controller.AddStudent((StudentDTO)this);
+            IsSaved = await controller.AddStudent((StudentDTO)this);
         }
         public static explicit operator StudentDTO(AddStudentFormViewModel model)
         {
@@ -27,7 +30,9 @@ namespace UniversitarySystem.Views.ViewModels.Student.AddStudent
                 model.PersonalInformation.Email,
                 model.PersonalInformation.DateRegistry,
                 (TitleDTO)model.TitleInformation,
-                (AddressDTO)model.AddressInformation);
+                (AddressDTO)model.AddressInformation,
+                model.TitleInformation.PendingMatters,
+                model.Status);
         }
     }
 }

@@ -70,7 +70,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\" />
+    <None Include="wwwroot\css\NotificationComponent.css" />
   </ItemGroup>
 
 </Project>

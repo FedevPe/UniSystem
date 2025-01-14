@@ -1,0 +1,33 @@
+﻿@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+.toast-header{
+    background-color: black;    
+}
+.btn-light {
+    background-color: white;
+}
+
+.toast {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.363);
+    border-radius: 6px;
+    opacity: 0;
+    backdrop-filter: blur(5px);
+}
+
+.toast.show {
+    opacity: 1;
+    pointer-events: auto;
+    animation: slideUp 0.5s ease-out;
+}

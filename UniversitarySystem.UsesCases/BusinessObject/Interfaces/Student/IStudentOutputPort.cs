@@ -4,7 +4,7 @@ namespace UniversitarySystem.UsesCases.BusinessObject.Interfaces.Student
 {
     public interface IStudentOutputPort
     {
-        int IdStudent { get; }
+        public bool IsSaved { get; }
         Task Handle(CreateStudentAggregate studient);
     }
 }

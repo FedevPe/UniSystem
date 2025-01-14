@@ -4,6 +4,6 @@ namespace UniversitarySystem.UsesCases.BusinessObject.Controllers
 {
     public interface IStudentController
     {
-        Task<int> AddStudent(StudentDTO studentDTO);
+        Task<bool> AddStudent(StudentDTO studentDTO);
     }
 }

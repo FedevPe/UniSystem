@@ -40,7 +40,6 @@
           }
         }
       },
-      "bootstrap/5.3.3": {},
       "Microsoft.AspNetCore.Authorization/8.0.8": {
         "dependencies": {
           "Microsoft.AspNetCore.Metadata": "8.0.8",
@@ -125,7 +124,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.WebView.WindowsForms/8.0.82": {
+      "Microsoft.AspNetCore.Components.WebView.WindowsForms/8.0.91": {
         "dependencies": {
           "Microsoft.AspNetCore.Components.WebView": "8.0.0",
           "Microsoft.Web.WebView2": "1.0.2592.51"
@@ -133,7 +132,7 @@
         "runtime": {
           "lib/net8.0-windows7.0/Microsoft.AspNetCore.Components.WebView.WindowsForms.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "8.0.8224.42604"
+            "fileVersion": "8.0.9124.47501"
           }
         }
       },
@@ -987,13 +986,6 @@
       "path": "azure.identity/1.10.3",
       "hashPath": "azure.identity.1.10.3.nupkg.sha512"
     },
-    "bootstrap/5.3.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-iQohLXwneNPDyW4x24mKQ90qGwT5WTtNl3KybL0koTluJPjKYxFCU/NTLHsJiWR2n7VmnwcpAgr8TR42KNmPOg==",
-      "path": "bootstrap/5.3.3",
-      "hashPath": "bootstrap.5.3.3.nupkg.sha512"
-    },
     "Microsoft.AspNetCore.Authorization/8.0.8": {
       "type": "package",
       "serviceable": true,
@@ -1043,12 +1035,12 @@
       "path": "microsoft.aspnetcore.components.webview/8.0.0",
       "hashPath": "microsoft.aspnetcore.components.webview.8.0.0.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Components.WebView.WindowsForms/8.0.82": {
+    "Microsoft.AspNetCore.Components.WebView.WindowsForms/8.0.91": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-7ei5hkTTjyGpUeeU1aG56eor+SkkcZDqqVe60480k/uC8wcHuJnrm6HE5OJMGvW9WbkgedNJk1UGQNCFGogrYg==",
-      "path": "microsoft.aspnetcore.components.webview.windowsforms/8.0.82",
-      "hashPath": "microsoft.aspnetcore.components.webview.windowsforms.8.0.82.nupkg.sha512"
+      "sha512": "sha512-JEhilGSBGcOkOb2reA1Pd1bdoKSz0zB0oiHuKtK0mMBkxGybD34RrvAKe31KJhG6i7rggM6IaywG391Qd9tXng==",
+      "path": "microsoft.aspnetcore.components.webview.windowsforms/8.0.91",
+      "hashPath": "microsoft.aspnetcore.components.webview.windowsforms.8.0.91.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Metadata/8.0.8": {
       "type": "package",

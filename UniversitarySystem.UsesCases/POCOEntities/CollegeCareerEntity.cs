@@ -7,7 +7,7 @@
         public string Duration { get; set; }
         public string Description { get; set; }
         public string Mode { get; set; }
-        public bool Status { get; set; }
+        public bool Status { get; set; } = true;
 
 
         public int TypeCareersId { get; set; }

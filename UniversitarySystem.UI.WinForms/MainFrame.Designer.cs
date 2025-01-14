@@ -47,6 +47,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(blazorWebView1);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "MainFrame";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "UniSystem";

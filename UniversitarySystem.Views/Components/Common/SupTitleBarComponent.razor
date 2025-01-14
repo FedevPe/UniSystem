@@ -1,20 +1,19 @@
-﻿<section class="container-fluid mt-4">
-    <div class="row">
-        <div class="col-12">
-            <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center border rounded bg-blue-800 shadow">
-                <h1 class="p-2 text-white"><i class="@ClassIconBar ms-2 me-3"></i>@TitleBarSup</h1>
-                <button class="btn btn-light d-md-none me-2" type="button" data-bs-toggle="collapse" data-bs-target=".sidebar">
-                    <i class="fa-solid fa-bars"></i>
-                </button>
-            </div>
-        </div>  
+﻿<header class="bg-blue-800 p-4 position-fixed top-0 w-100 z-3 border-bottom border-white">
+    <div class="d-flex justify-content-between text-white">
+        <div class="fs-3">
+            <i class="@ClassIconBar me-2"></i>
+            <span>
+                @TitleBarSup
+            </span>
+        </div>
+        <button class="btn btn-light d-md-none me-2" type="button" data-bs-toggle="collapse" data-bs-target=".sidebar">
+            <i class="fa-solid fa-bars"></i>
+        </button>
     </div>
-</section>
-
+</header>
 @code{
     [Parameter]
     public string ClassIconBar { get; set; }
-
     [Parameter]
     public string TitleBarSup { get; set; }
 }

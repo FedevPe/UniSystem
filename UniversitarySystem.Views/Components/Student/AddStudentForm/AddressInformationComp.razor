@@ -21,8 +21,11 @@
         *@
         <div class="row mt-4">
             <div class="form-floating col-lg-5 mx-auto mb-2">
-                <InputSelect @bind-Value="AddressInformation.ProvinceId" class="form-select" name="Provincia" id="Province" placeholder="Provincia">
-                    <option value="0">...</option>
+                <InputSelect ValueChanged="@((int value)=> LoadCities(value))"
+                             ValueExpression="@(()=> AddressInformation.ProvinceId)" 
+                             class="form-select" name="Provincia" id="Province" 
+                             placeholder="Provincia">
+                    <option value="0"> </option>
                     @foreach (var item in AddressInformation.ProvincesList)
                     {
                         <option value="@item.Id">@item.Name</option>
@@ -32,7 +35,7 @@
             </div>
             <div class="form-floating col-lg-5 mx-auto mb-2">
                 <InputSelect @bind-Value="@AddressInformation.CityId" class="form-select" name="Locality" id="Locality" placeholder="">
-                    <option value="0">...</option>
+                    <option value="0"> </option>
                     @foreach (var item in AddressInformation.CitiesList)
                     {
                         <option value="@item.Id">@item.Name</option>

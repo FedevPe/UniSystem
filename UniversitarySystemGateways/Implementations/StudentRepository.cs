@@ -29,9 +29,5 @@ namespace UniversitarySystemGateways.Implementations
                 CityId = studentRegistry.AddressStudent.IdCity
             });
         }
-        public async Task SaveChanges()
-        {
-            await studentCommand.SaveStudent();
-        }
     }
 }

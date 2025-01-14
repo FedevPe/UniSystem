@@ -283,6 +283,11 @@ namespace UniversitarySystem.EFCore.Migrations
                         .HasMaxLength(20)
                         .HasColumnType("nvarchar(20)");
 
+                    b.Property<bool>("PendingMatters")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(false);
+
                     b.Property<bool>("State")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("bit")

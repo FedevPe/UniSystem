@@ -12,10 +12,10 @@ namespace UniversitarySystemControllers.Implementations
         IStudentOutputPort presenter) : IStudentController
     {
         [HttpPost]
-        public async Task<int> AddStudent(StudentDTO studentDTO)
+        public async Task<bool> AddStudent(StudentDTO studentDTO)
         {
             await inputPort.Handle(studentDTO);
-            return presenter.IdStudent;
+            return presenter.IsSaved;
         }
     }
 }

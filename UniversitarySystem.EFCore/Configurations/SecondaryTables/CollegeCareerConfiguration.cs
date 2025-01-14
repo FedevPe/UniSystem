@@ -15,7 +15,7 @@ namespace UniversitarySystem.EFCore.Configurations.SecondaryTables
             builder.Property(a => a.TypeCareersId).IsRequired();
             builder.Property(a => a.Duration).HasMaxLength(20).IsRequired();
             builder.Property(a => a.Mode).HasMaxLength(50).IsRequired();
-            builder.Property(a => a.Status).HasDefaultValue(true);
+            builder.Property(a => a.Status).IsRequired().HasDefaultValue(true);
         }
     }
 }

@@ -1,29 +1,51 @@
-﻿<section class="toast-container position-fixed bottom-0 end-0 me-3 mb-3 text-blue-800" >
-    <div class="toast @ComponentHidden" role="alert" id="notificationSave">
-        <div class="d-flex justify-content-center align-items-center
-            rounded shadow p-3 bg-white" style="border: solid 1px #2563EB;" >
-            <i class="@ClassIconNotification me-2 @ColorIcon" style="font-size: 2rem;"></i>
-            <span class="fw-bold">@Message</span>
+﻿<section class="toast-container position-fixed">
+    <div class="toast @showNotification notification" role="alert" id="notificationSave">
+        <div class="toast-header notification justify-content-end">
+            <button class="btn btn-light notification btn-sm" id="btnClose">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+        <div class="toast-body">
+            <div class="d-flex justify-content-center align-items-center
+                p-3" style="width: 100%; height: 100%;">
+                <i class="@classIconNotification @colorIconNotification me-2" style="font-size: 2rem;"></i>
+                <span class="fw-bold ">@messageNotification</span>
+            </div>
         </div>
     </div>
 </section>
-<style>
-    .toast{
-        width: 250px;
-        height: auto;
-    }
-</style>
 
 @code{
-    [Parameter]
-    public string ClassIconNotification { get; set; } 
+    private string showNotification;
+    private string classIconNotification;
+    private string colorIconNotification;
+    private string messageNotification;
 
-    [Parameter]
-    public string ColorIcon { get; set; }
+    public async Task DisplayNotification(bool response)
+    {
+        showNotification = "show";
+        classIconNotification = "spinner-border";
+        colorIconNotification = "text-blue-800";
+        messageNotification = "Guardando...";
+        StateHasChanged();
 
-    [Parameter]
-    public string Message { get; set; }
+        await Task.Delay(3000);
 
-    [Parameter]
-    public string ComponentHidden { get; set; }
+        if (response)
+        {
+            classIconNotification = "fa-solid fa-circle-check";
+            colorIconNotification = "text-check";
+            messageNotification = "Guardado con exito!";
+        }
+        else
+        {
+            classIconNotification = "fa-solid fa-circle-exclamation";
+            colorIconNotification = "text-danger";
+            messageNotification = "Ocurrio un error";
+        }
+        StateHasChanged();
+        await Task.Delay(5000);
+        showNotification = "";
+        StateHasChanged();
+    }
 }

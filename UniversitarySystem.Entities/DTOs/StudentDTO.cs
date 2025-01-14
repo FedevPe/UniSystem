@@ -5,7 +5,7 @@
         public StudentDTO(int id, string firstName, string lastName, string dni,
             string cuil, DateOnly dateOfBirth, string numberPhone,
             string email, DateOnly dateRegistry,
-            TitleDTO tittleStudent, AddressDTO address)
+            TitleDTO tittleStudent, AddressDTO address, bool pendingMatters, bool state)
         {
             Id = id;
             FirstName = firstName;
@@ -18,6 +18,8 @@
             DateRegistry = dateRegistry;
             TittleStudent = tittleStudent;
             AddressStudent = address;
+            PendingMatters = pendingMatters;
+            State = state;
         }
         public int Id { get; }
         public string FirstName { get; }
@@ -27,6 +29,8 @@
         public DateOnly DateOfBirth { get; }
         public string NumberPhone { get; }
         public string Email { get; }
+        public bool PendingMatters { get; }
+        public bool State { get; }
         public DateOnly DateRegistry { get; }
         public TitleDTO TittleStudent { get; }
         public AddressDTO AddressStudent { get; }

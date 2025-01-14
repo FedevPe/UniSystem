@@ -15,7 +15,7 @@ namespace UniversitarySystemControllers.Implementations
         public async Task<bool> AddCollegeCareer(CollegeCareerDTO collegeCareer)
         {
             await inputPort.Handle(collegeCareer);
-            return outputPort.IsSave;
+            return outputPort.IsSaved;
         }
         [HttpGet]
         public async Task<IEnumerable<CollegeCareerDTO>> DisplayListCareers()

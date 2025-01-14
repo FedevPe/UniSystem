@@ -7,22 +7,30 @@
         </div>
         <div class="row mt-4 mb-4">
             <div class="form-floating col-lg-5 mx-auto mb-2">
-                <InputText @bind-Value="TitleInformation.HighSchool" class="form-control" id="HighSchool" placeholder="Escuela Secundaria" />
+                <InputText @bind-Value="TitleInformation.HighSchool" class="form-control" id="HighSchool" placeholder="Escuela Secundaria"/>
                 <label class="form-label ms-2" for="HighSchool">Escuela Secundaria</label>
                 <div class="form-floating mt-4">
-                    <InputDate @bind-Value="TitleInformation.EgressDate" class="form-control mt-3" id="EgressDate" />
+                    <InputDate @bind-Value="TitleInformation.EgressDate" class="form-control mt-3" id="EgressDate" disabled="@pendingMatters"/>
                     <label class="form-label" for="EgressDate">Fecha de egreso</label>
                 </div>
             </div>
             <div class="form-floating col-lg-5 mx-auto mb-2">
-                <InputText @bind-Value="TitleInformation.SecondaryDegree" class="form-control" id="SecondaryDegree" placeholder="Título Secundario" />
+                <InputText @bind-Value="TitleInformation.SecondaryDegree" class="form-control" id="SecondaryDegree" placeholder="Título Secundario" disabled="@pendingMatters" />
                 <label class="form-label ms-2" for="SecondaryDegree">Título Secundario</label>
+                <div class="mt-4">
+                    <span>Adeuda materias?</span>
+                    <div>
+                        <InputCheckbox class="form-check-input me-2" id="cbxMatters" @bind-Value="pendingMatters"/>
+                        <label form="cbxMatters" class="form-check-label">Si</label>
+                    </div>
+                </div>
             </div>
         </div>
     </nav>
 </EditForm>
 
 @code {
+    private bool pendingMatters = false;
 }
 
 

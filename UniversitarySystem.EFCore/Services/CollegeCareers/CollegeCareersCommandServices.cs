@@ -11,20 +11,24 @@ namespace UniversitarySystem.EFCore.Services.CollegeCareers
     {
         public async Task AddCollegeCareerAsync(CollegeCareerEntity collegeCareers)
         {
-            await AddAsync(collegeCareers);
-            await SaveChangesAsync();
+            try
+            {
+                await AddAsync(collegeCareers);
+                await SaveChangesAsync();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
         }
-
         public Task RemoveCollegeCareerAsync(int id)
         {
             throw new NotImplementedException();
         }
-
         public async Task SaveCollegeCareer()
         {
             await SaveChangesAsync();
         }
-
         public Task UpdateCollegeCareerAsyn(CollegeCareerEntity collegeCareers)
         {
             throw new NotImplementedException();

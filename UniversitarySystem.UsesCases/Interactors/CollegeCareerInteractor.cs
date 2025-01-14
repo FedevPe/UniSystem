@@ -22,7 +22,6 @@ namespace UniversitarySystem.UsesCases.Interactors
             };
 
             await repository.AddCollegeCareer(entity);
-            await repository.SaveChanges();
             await outputPort.Handle(entity);
         }
         public async Task GetListCareers()

@@ -12,15 +12,9 @@ namespace UniversitarySystemGateways.Implementations
         {
             await commandServices.AddCollegeCareerAsync(collegeCareer);
         }
-
         public async Task<IEnumerable<CollegeCareerEntity>> GetAllCollegeCareers()
         {
             return await queryService.GetCollegeCareersAsync();
-        }
-
-        public async Task SaveChanges()
-        {
-            await commandServices.SaveCollegeCareer();
         }
     }
 }
